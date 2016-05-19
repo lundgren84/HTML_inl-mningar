@@ -86,6 +86,7 @@
     <Content Include="image\y4.PNG" />
     <Content Include="image\y5.PNG" />
     <Content Include="index.html" />
+    <Content Include="pages\Customerinfo.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
