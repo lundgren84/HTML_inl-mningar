@@ -3,6 +3,7 @@
 <head>
     <title>Customer Info</title>
     <meta charset="utf-8" />
+    <script src="../javascript/JavaScript.js"></script>
 </head>
 <body>
     <header>Customer Info</header>
@@ -11,7 +12,7 @@
             <td>
                 <fieldset>
                     <legend>Customer</legend>
-                    <form>
+                    <form action="recive.html">
 
                         <fieldset>
                             <legend>Name</legend>
@@ -53,7 +54,7 @@
                             <input type="text" name="land" list="land" placeholder="Sweden" />
 
                             <label for="zip">Zip-code</label>
-                            <input type="text" name="zip" id="zip" />
+                            <input type="text" name="zip" id="zip" placeholder="254 40"/>
                             <br />
 
                             <label for="email">E-mail</label>
@@ -74,14 +75,48 @@
                             <input type="text" name="land" list="land" placeholder="Sweden" />
 
                             <label for="dzip">Zip-code</label>
-                            <input type="text" name="zip" id="dzip" />
+                            <input type="text" name="zip" id="dzip" placeholder="254 40"/>
                         </fieldset>
 
                         <fieldset>
                             <legend>Payment</legend>
-                            <label for="cardnr"></label>
-                            <input type="text" name="cardnr" id="cardnr" />
+                            <label for="cardnr">Card number</label>
+                            <input type="text" name="cardnr" id="cardnr" placeholder="560221-560225"/>
+
+                            <label for="mounth">Mounth</label>
+                            <select name="mounth" id="mounth">
+                                <option>January</option>
+                                <option>February</option>
+                                <option>Mars</option>
+                                <option>April</option>
+                                <option>May</option>
+                                <option>June</option>
+                                <option>July</option>
+                                <option>August</option>
+                                <option>September</option>
+                                <option>Oktober</option>
+                                <option>November</option>
+                                <option>December</option>
+                            </select>
+                            <label for="year">Year</label>
+                            <select name="year" id="year">
+                                <option>2016</option>
+                                <option>2017</option>
+                                <option>2018</option>
+                                <option>2019</option>
+                                <option>2020</option>
+                                <option>2021</option>
+                                <option>2022</option>
+                                <option>2023</option>
+                                <option>2024</option>
+                                <option>2025</option>
+                            </select>
+
+                            <label for="cvv">CVV</label>
+                            <input type="text" maxlength="3" name="cvv" id="cvv" placeholder="123"/>
+
                         </fieldset>
+
 
                         <button type="submit">Commit</button>
                     </form>
