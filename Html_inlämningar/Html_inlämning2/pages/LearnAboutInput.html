@@ -2,7 +2,7 @@
 <html lang="sv-se">
 <head>
     <title>Inlämning2</title>
-	<meta charset="utf-8" />
+    <meta charset="utf-8" />
     <meta name="author" content="Hampus Lundgren" />
     <meta name="keywords" content="inlämning2" />
     <meta name="description" content="Inlämning2 i html5 /css kursen från EC" />
@@ -12,32 +12,61 @@
     <table>
         <tr>
             <td>
-                <fieldset>
-                    <legend>I</legend>
-                    <label for="fname">First Name</label>
-                    <input type="text" name="firstname" id="fname" placeholder="Olle"  />
-                    <label for="lname">Last Name</label>
-                    <input type="text" name="LastName" id="lname" placeholder="Ohlsson" /><br />
-                    <label for="email">e-mail</label>
-                    <input type="email" name="email" id="email" placeholder="Olle77@hotmail.com" />
-                    <label for="pas">Password</label>
-                    <input type="password" name="password" id="pas" /><br />
-                    <label for="zip">Zip</label>
-                    <input type="text" maxlength="5" name="zipcode" 
-                           id="zip" placeholder="254 40" />
-                    <label for="city">City</label>
-                    <input type="text" name="city" id="city" placeholder="Helsingborg" />
-                </fieldset>
-                <fieldset>
-                    <legend>II</legend>
-                </fieldset>
-                <input type="text" name="firtname" id="fname" 
-                <fieldset>
-                    <legend>III</legend>
-                </fieldset>
-                <fieldset>
-                    <legend>IV</legend>
-                </fieldset>
+                <!--------------------1--------------------------->
+                <form action="LearnAboutInput.html">
+                    <fieldset>
+                        <legend>I</legend>
+                        <label for="fname">Firstname</label>
+                        <input type="text" name="firstname" id="fname" placeholder="Olle" />
+                        <label for="lname">Lastname</label>
+                        <input type="text" name="LastName" id="lname" placeholder="Ohlsson" /><br />
+                        <label for="email">e-mail</label>
+                        <input type="email" name="email" id="email" placeholder="Olle77@hotmail.com" />
+                        <label for="pas">Password</label>
+                        <input type="password" name="password" id="pas" /><br />
+                        <label for="zip">Zip</label>
+                        <input type="text" maxlength="5" name="zipcode"
+                               id="zip" placeholder="254 40" />
+                        <label for="city">City</label>
+                        <input type="text" name="city" id="city" placeholder="Helsingborg" /><br />
+                    </fieldset>
+                    <button type="submit">Submit</button>
+                </form>
+                <!--------------------2--------------------------->
+                <form action="LearnAboutInput.html">
+                    <fieldset>
+                        <legend>II</legend>
+                        <label for="fname">Firstname</label>
+                        <input type="text" name="firtname" id="fname" placeholder="Olle" />
+                        <label for="username">Username</label>
+                        <input type="text" name="username" id="username" placeholder="Olle-King" /><br />
+
+                        <label for="SSN">Social security number</label>
+                        <input type="text" maxlength="10" name="SSN" id="SSN" placeholder="790423 4533" /><br />
+                        <label for="tel">Tel</label>
+                        <input type="tel" id="tel" name="tel" placeholder="042-121314" />
+                        <label for="mob">Mobile</label>
+                        <input type="tel" id="mob" name="mobile" placeholder="0702-121314" /><br />
+                    </fieldset>
+                    <input type="submit" value="Submit" />
+                </form>
+                <!-----------------3------------------------------>
+                <form action="LearnAboutInput.html">
+                    <fieldset>
+                        <legend>III</legend>
+                        <label for="fname">Firstname</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Olle" />
+
+                    </fieldset>
+                    <button type="submit">Submit</button>
+                </form>
+                <!----------------4------------------------------->
+                <form action="LearnAboutInput.html">
+                    <fieldset>
+                        <legend>IV</legend>
+                    </fieldset>
+                    <input type="submit" value="Submit" />
+                </form>
             </td>
         </tr>
     </table>
