@@ -14,7 +14,7 @@
     background-color: gray;
     border: 3px solid black;
     margin-top: 20px;
-    margin-left: 50%;
+    margin-left: 49%;
     border-radius: 50%;
 }
 
@@ -43,7 +43,7 @@
     border: 3px solid black;
     border-radius: 50px;
 }
-#window{
+.window{
     position:absolute;
     top:100px;
     left:30px;
@@ -54,7 +54,35 @@
 }
 .app{
 
-    height:70px;
-    width:70px;
+    height:60px;
+    width:60px;
+    border-radius:20px;
     background-color:blueviolet;
+    margin:7px;
+}
+#anteckningar{
+    background-image:url(../Images/Anteckningar.png);
+}
+#winanteckningar{
+    background-color:white;
+}
+#postit{
+    position:absolute;
+    top:100px;
+    left:20px;
+}
+#postit:hover{
+    
+}
+
+#button{
+    position:absolute;
+    left:160px;
+    top: 620px;
+
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    background-color:#270909;
+    border: #240606;
 }

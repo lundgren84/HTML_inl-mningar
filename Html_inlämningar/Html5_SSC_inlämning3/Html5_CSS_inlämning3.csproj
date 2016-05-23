@@ -66,7 +66,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\Anteckningar.png" />
     <Content Include="Images\Einstein.PNG" />
+    <Content Include="Images\postitlap.jpg" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -77,6 +79,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.html" />
+    <Content Include="Pages\Apps\Anteckningar.html" />
     <Content Include="Pages\Iphone.html" />
     <Content Include="Styles\Styleiphone.css" />
     <Content Include="Styles\StyleSheet1.css" />
