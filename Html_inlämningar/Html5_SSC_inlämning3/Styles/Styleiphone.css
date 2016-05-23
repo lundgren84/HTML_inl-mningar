@@ -8,6 +8,10 @@
     border-radius: 50px;
 }
 
+a {
+    text-decoration: none;
+}
+
 #camera {
     height: 6px;
     width: 6px;
@@ -20,9 +24,8 @@
 
 #flash {
     position: absolute;
-    top:40px;
+    top: 40px;
     left: 7px;
-
     height: 2px;
     width: 2px;
     margin-left: 120px;
@@ -34,55 +37,112 @@
 
 #ear {
     position: absolute;
-      top: 50px;
+    top: 50px;
     left: 150px;
-    
     height: 4px;
     width: 70px;
     background-color: gray;
     border: 3px solid black;
     border-radius: 50px;
 }
-.window{
-    position:absolute;
-    top:100px;
-    left:30px;
-    width:308px;
-    height:500px;
-    border:2px solid black;
-    background-color:gray;
-}
-.app{
 
-    height:60px;
-    width:60px;
-    border-radius:20px;
-    background-color:blueviolet;
-    margin:7px;
+.window {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    width: 308px;
+    height: 500px;
+    border: 2px solid black;
+    background-color: gray;
 }
-#anteckningar{
-    background-image:url(../Images/Anteckningar.png);
+
+.app {
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    margin: 7px;
 }
-#winanteckningar{
-    background-color:white;
+
+    .app:hover {
+        box-shadow: 3px 3px 5px black;
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        -o-transition: width .5s;
+        transition: all .5s;
+    }
+
+#anteckningar {
+    background-image: url(../Images/Anteckningar.png);
 }
-#postit{
+
+
+
+#postit {
+    font-family:Elephant;
     position:absolute;
-    top:100px;
-    left:20px;
+    top: 100px;
+    left: 20px;
+    height: 120px;
+    width: 120px;
+    background-color: green;
+    box-shadow: 5px 5px 5px;
+   transform:rotate(7deg);
 }
-#postit:hover{
+li{
+    list-style:none;
+}
+    #postit:hover {
+        height: 60%;
+        width: 75%;
+        background-color:aquamarine;
+        font-size:xx-large;
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        -o-transition: width .5s;
+        transition: all .5s;
+        -moz-animation: rotate 3s infinite;
+        -o-animation: rotate 3s infinite;
+        -webkit-animation: rotate 3s infinite;
+        animation: rotate 3s infinite;
+    }
+   
     
+    #nål{
+       width:15px;
+       height:15px;
+       background-color:blue;
+       position:absolute;
+       top:0px;
+       left:45%;
+       border-radius:50%;
+
+    }
+@keyframes rotate {
+    50% {
+        transform:rotate(-7deg);
+    }
 }
 
-#button{
-    position:absolute;
-    left:160px;
+#facebook {
+    background-image: url('../Images/facebook.png');
+}
+
+#kamera {
+    background-image: url('../Images/kamera.png');
+}
+
+#button {
+    position: absolute;
+    left: 160px;
     top: 620px;
-
-    height:50px;
-    width:50px;
-    border-radius:50%;
-    background-color:#270909;
-    border: #240606;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #270909;
+    border: 5px #240606;
 }
+
+    #button:hover {
+        background-color: gray;
+    }

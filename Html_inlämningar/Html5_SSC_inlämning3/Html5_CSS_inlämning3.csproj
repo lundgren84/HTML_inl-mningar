@@ -68,6 +68,8 @@
   <ItemGroup>
     <Content Include="Images\Anteckningar.png" />
     <Content Include="Images\Einstein.PNG" />
+    <Content Include="Images\facebook.png" />
+    <Content Include="Images\kamera.png" />
     <Content Include="Images\postitlap.jpg" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
