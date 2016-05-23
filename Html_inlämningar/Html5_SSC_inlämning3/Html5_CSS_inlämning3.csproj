@@ -67,10 +67,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\Anteckningar.png" />
+    <Content Include="Images\baby-girl2.png" />
     <Content Include="Images\Einstein.PNG" />
     <Content Include="Images\facebook.png" />
+    <Content Include="Images\google.png" />
     <Content Include="Images\kamera.png" />
     <Content Include="Images\postitlap.jpg" />
+    <Content Include="Images\tradera.png" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -83,6 +86,7 @@
     <Content Include="index.html" />
     <Content Include="Pages\Apps\Anteckningar.html" />
     <Content Include="Pages\Iphone.html" />
+    <Content Include="Pages\Apps\medelanden.html" />
     <Content Include="Styles\Styleiphone.css" />
     <Content Include="Styles\StyleSheet1.css" />
     <Content Include="Web.config" />

@@ -6,6 +6,7 @@
     width: 350px;
     border: 3px solid black;
     border-radius: 50px;
+
 }
 
 a {
@@ -54,6 +55,7 @@ a {
     height: 500px;
     border: 2px solid black;
     background-color: gray;
+    background-image: url('../Images/baby-girl2.png');
 }
 
 .app {
@@ -131,7 +133,12 @@ li{
 #kamera {
     background-image: url('../Images/kamera.png');
 }
-
+#google {
+    background-image: url('../Images/google.png');
+}
+#tradera {
+    background-image: url('../Images/tradera.png');
+}
 #button {
     position: absolute;
     left: 160px;
