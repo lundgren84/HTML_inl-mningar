@@ -1,7 +1,6 @@
 ﻿body {
     width: 308px;
     height: 500px;
-    border: 3px solid black;
 }
 
 header {
@@ -10,15 +9,15 @@ header {
 }
 
 h1 {
-    font:bold;
+    font: bold;
     font-size: large;
     position: absolute;
-    top:10px;
-    left: 120px;
+    top: 10px;
+    left: 100px;
 }
 
 #ändra {
-    color:blue;
+    color: blue;
     position: absolute;
     top: 20px;
     left: 10px;
@@ -27,22 +26,33 @@ h1 {
 #pic {
     position: absolute;
     top: 20px;
-    left: 290px;
+    left: 270px;
 }
-.helhet{
-   border-bottom: 1px solid gray;
-   height:70px;
-}
-.sidobild{
-   margin-top:10px;
-width:50px;
-height:50px;
-border-radius:50%;
-background-color:gray;
-}
-.text{
 
+.helhet {
+    border-bottom: 1px solid gray;
+    height: 60px;
 }
-.rubrik{
 
+.sidobild {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: gray;
+    float: left;
+}
+
+.text {
+    background-color: hotpink;
+    width: 248px;
+    font-size: 14px;
+    float: right;
+}
+
+.rubrik {
+    float: left;
+    font: bold;
+    font-size: 16px;
 }
