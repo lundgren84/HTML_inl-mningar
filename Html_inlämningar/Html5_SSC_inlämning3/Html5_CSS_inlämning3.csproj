@@ -68,6 +68,7 @@
   <ItemGroup>
     <Content Include="Images\Anteckningar.png" />
     <Content Include="Images\baby-girl2.png" />
+    <Content Include="Images\BlackGardinet.PNG" />
     <Content Include="Images\Einstein.PNG" />
     <Content Include="Images\facebook.png" />
     <Content Include="Images\facebookimg.PNG" />

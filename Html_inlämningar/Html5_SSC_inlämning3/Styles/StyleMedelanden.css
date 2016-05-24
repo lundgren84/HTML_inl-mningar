@@ -1,6 +1,7 @@
 ﻿body {
     width: 308px;
     height: 500px;
+    background-color:white;
 }
 
 header {
@@ -31,6 +32,7 @@ h1 {
 }
 
 .helhet {
+    background-color:white;
     margin-top:5px;
     border-bottom: 1px solid gray;
     height: 60px;

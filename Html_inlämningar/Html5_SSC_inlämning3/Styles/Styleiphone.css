@@ -6,7 +6,7 @@
     width: 350px;
     border: 3px solid black;
     border-radius: 50px;
-
+    background-image: url('../Images/BlackGardinet.PNG');
 }
 
 a {
@@ -160,6 +160,15 @@ li{
     border-radius: 50%;
     background-color: #270909;
     border: 5px #240606;
+}
+#insidebutton{
+    width: 30px;
+    height:30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    position:absolute;
+    top:8.5px;
+    left:8.5px;
 }
 
     #button:hover {
