@@ -57,8 +57,24 @@ a {
     background-color: gray;
     background-image: url('../Images/baby-girl2.png');
 }
-iframe{
-    margin:0px;
+
+#window4Cam {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    width: 308px;
+    height: 500px;
+    border: 2px solid black;
+}
+
+#webcam {
+    width: 308px;
+    height: 500px;
+    background-color: gray;
+}
+
+iframe {
+    margin: 0px;
     position: absolute;
     top: 100px;
     left: 30px;
@@ -89,49 +105,50 @@ iframe{
 
 
 #postit {
-    font-family:Elephant;
-    position:absolute;
+    font-family: Elephant;
+    position: absolute;
     top: 100px;
     left: 20px;
     height: 120px;
     width: 120px;
     background-color: green;
     box-shadow: 5px 5px 5px;
-   transform:rotate(7deg);
+    transform: rotate(7deg);
 }
 
-li{
-    list-style:none;
+li {
+    list-style: none;
 }
-    #postit:hover {
-        height: 60%;
-        width: 75%;
-        background-color:aquamarine;
-        font-size:xx-large;
-        -webkit-transition: all .5s;
-        -moz-transition: all .5s;
-        -o-transition: width .5s;
-        transition: all .5s;
-        -moz-animation: rotate 3s infinite;
-        -o-animation: rotate 3s infinite;
-        -webkit-animation: rotate 3s infinite;
-        animation: rotate 3s infinite;
-    }
-   
-    
-    #nål{
-       width:15px;
-       height:15px;
-       background-color:blue;
-       position:absolute;
-       top:0px;
-       left:45%;
-       border-radius:50%;
 
-    }
+#postit:hover {
+    height: 60%;
+    width: 75%;
+    background-color: aquamarine;
+    font-size: xx-large;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: width .5s;
+    transition: all .5s;
+    -moz-animation: rotate 3s infinite;
+    -o-animation: rotate 3s infinite;
+    -webkit-animation: rotate 3s infinite;
+    animation: rotate 3s infinite;
+}
+
+
+#nål {
+    width: 15px;
+    height: 15px;
+    background-color: blue;
+    position: absolute;
+    top: 0px;
+    left: 45%;
+    border-radius: 50%;
+}
+
 @keyframes rotate {
     50% {
-        transform:rotate(-7deg);
+        transform: rotate(-7deg);
     }
 }
 
@@ -142,15 +159,19 @@ li{
 #kamera {
     background-image: url('../Images/kamera.png');
 }
+
 #google {
     background-image: url('../Images/google.png');
 }
+
 #tradera {
     background-image: url('../Images/tradera.png');
 }
+
 #medelanden {
     background-image: url('../Images/medelanden.png');
 }
+
 #button {
     position: absolute;
     left: 160px;
@@ -161,16 +182,57 @@ li{
     background-color: #270909;
     border: 5px #240606;
 }
-#insidebutton{
+
+#insidebutton {
     width: 30px;
-    height:30px;
+    height: 30px;
     border: 1px solid gray;
     border-radius: 10px;
-    position:absolute;
-    top:8.5px;
-    left:8.5px;
+    position: absolute;
+    top: 8.9px;
+    left: 8.9px;
 }
 
-    #button:hover {
-        background-color: gray;
-    }
+#button:hover {
+    background-color: gray;
+}
+
+#sidebutton1 {
+    position: absolute;
+    left: 5px;
+    top: 100px;
+    width: 4px;
+    height: 18px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+#sidebutton2 {
+    position: absolute;
+    left: 5px;
+    top: 140px;
+    width: 4px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+#sidebutton3 {
+    position: absolute;
+    left: 5px;
+    top: 200px;
+    width: 4px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+#sidebutton4 {
+    position: absolute;
+    left: 362px;
+    top: 140px;
+    width: 4px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: black;
+}

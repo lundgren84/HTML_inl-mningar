@@ -89,6 +89,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Pages\Apps\camera.html" />
     <Content Include="Pages\Apps\Facebook.html" />
     <Content Include="Pages\Apps\iframes\facebookiframe.html" />
     <Content Include="Pages\sizes.html" />
@@ -100,6 +101,7 @@
     <Content Include="Pages\Apps\tradera.html" />
     <Content Include="index.html" />
     <Content Include="Pages\Apps\medelanden.html" />
+    <Content Include="Scripts\webcam.js" />
     <Content Include="Styles\Styleiphone.css" />
     <Content Include="Styles\StyleMedelanden.css" />
     <Content Include="Styles\StyleSheet1.css" />
