@@ -74,6 +74,7 @@
     <Content Include="Images\googlesite.PNG" />
     <Content Include="Images\kamera.png" />
     <Content Include="Images\medelanden.png" />
+    <Content Include="Images\medpic.png" />
     <Content Include="Images\postitlap.jpg" />
     <Content Include="Images\tradera.png" />
     <Content Include="packages.config" />

@@ -24,17 +24,22 @@ h1 {
 }
 
 #pic {
+     color: blue;
     position: absolute;
-    top: 20px;
-    left: 270px;
+    top: 10px;
+    left: 265px;
 }
 
 .helhet {
+    margin-top:5px;
     border-bottom: 1px solid gray;
     height: 60px;
 }
 
 .sidobild {
+    text-align:center;
+    font-size:xx-large;
+    color:white;
     margin-top: 10px;
     margin-left: 10px;
     width: 40px;
@@ -45,14 +50,24 @@ h1 {
 }
 
 .text {
-    background-color: hotpink;
+   
     width: 248px;
-    font-size: 14px;
+  
     float: right;
+ 
+}
+.sender{
+    float:left;
+    font:bolder;
+}
+.week{
+    float:right;
+    margin-right:15px;
+      font-size: 14px;
+    color:gray;
+}
+.cont{
+    color:gray;
+      font-size: 14px;
 }
 
-.rubrik {
-    float: left;
-    font: bold;
-    font-size: 16px;
-}
