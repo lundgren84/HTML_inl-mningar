@@ -77,6 +77,7 @@
     <Content Include="Images\medpic.png" />
     <Content Include="Images\postitlap.jpg" />
     <Content Include="Images\tradera.png" />
+    <Content Include="Images\traderaImage.PNG" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -91,6 +92,8 @@
     <Content Include="Pages\Apps\google.html" />
     <Content Include="Pages\Apps\iframes\googleiframe.html" />
     <Content Include="Pages\Apps\iframes\medelandeniframe.html" />
+    <Content Include="Pages\Apps\iframes\traderaiframe.html" />
+    <Content Include="Pages\Apps\tradera.html" />
     <Content Include="Pages\Iphone.html" />
     <Content Include="Pages\Apps\medelanden.html" />
     <Content Include="Styles\Styleiphone.css" />
