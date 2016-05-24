@@ -71,6 +71,7 @@
     <Content Include="Images\Einstein.PNG" />
     <Content Include="Images\facebook.png" />
     <Content Include="Images\google.png" />
+    <Content Include="Images\googlesite.PNG" />
     <Content Include="Images\kamera.png" />
     <Content Include="Images\postitlap.jpg" />
     <Content Include="Images\tradera.png" />
@@ -85,6 +86,8 @@
   <ItemGroup>
     <Content Include="index.html" />
     <Content Include="Pages\Apps\Anteckningar.html" />
+    <Content Include="Pages\Apps\google.html" />
+    <Content Include="Pages\Apps\iframes\googleiframe.html" />
     <Content Include="Pages\Iphone.html" />
     <Content Include="Pages\Apps\medelanden.html" />
     <Content Include="Styles\Styleiphone.css" />
