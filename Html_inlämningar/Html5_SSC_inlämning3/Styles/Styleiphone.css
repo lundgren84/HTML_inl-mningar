@@ -98,6 +98,7 @@ iframe{
     box-shadow: 5px 5px 5px;
    transform:rotate(7deg);
 }
+
 li{
     list-style:none;
 }
@@ -145,6 +146,9 @@ li{
 }
 #tradera {
     background-image: url('../Images/tradera.png');
+}
+#medelanden {
+    background-image: url('../Images/medelanden.png');
 }
 #button {
     position: absolute;

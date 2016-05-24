@@ -1,0 +1,48 @@
+﻿body {
+    width: 308px;
+    height: 500px;
+    border: 3px solid black;
+}
+
+header {
+    height: 40px;
+    border-bottom: 1px solid gray;
+}
+
+h1 {
+    font:bold;
+    font-size: large;
+    position: absolute;
+    top:10px;
+    left: 120px;
+}
+
+#ändra {
+    color:blue;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+#pic {
+    position: absolute;
+    top: 20px;
+    left: 290px;
+}
+.helhet{
+   border-bottom: 1px solid gray;
+   height:70px;
+}
+.sidobild{
+   margin-top:10px;
+width:50px;
+height:50px;
+border-radius:50%;
+background-color:gray;
+}
+.text{
+
+}
+.rubrik{
+
+}
