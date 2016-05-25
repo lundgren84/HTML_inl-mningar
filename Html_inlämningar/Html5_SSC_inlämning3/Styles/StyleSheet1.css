@@ -1,31 +1,22 @@
 ﻿body {
-}
-
-.windowSize {
-    position: absolute;
-    top: 100px;
-    left: 30px;
-    width: 308px;
-    height: 500px;
-    border: 2px solid black;
-    background-color: brown;
-}
-
-#ipad {
-    display: none;   
+    background-color: gold;
 }
 
 #mobile {
-    display: none; 
+    display: none;
 }
 
-#screen {
-    display: none; 
+#ipad {
+    display: none;
+}
+
+#printer {
+    display: none;
 }
 
 @media only screen and (max-width: 768px) {
 
-    .windowSize {
+    body {
         background-color: green;
     }
 
@@ -37,56 +28,50 @@
         display: none;
     }
 
-    #printer {
+    #screen {
         display: none;
     }
-
-    #acreen {
+     #printer {
         display: none;
     }
 }
 
 @media only screen and (max-width: 480px) {
 
-    .windowSize {
+    body {
         background-color: red;
     }
-
-    #ipad {
-        display: none;
-    }
-
     #mobile {
         display: block;
     }
-
+    #ipad {
+        display: none;
+    }
     #printer {
         display: none;
     }
-
     #screen {
         display: none;
     }
 }
 
 @media only print {
-    .windowSize {
-        background-color: gold;
+    body {
+        background-color: white;
     }
-
+     #mobile {
+        display: none;
+    }
     #ipad {
         display: none;
     }
-
-    #mobile {
+     #screen {
         display: none;
     }
-
+  
     #printer {
         display: block;
     }
 
-    #screen {
-        display: none;
-    }
+   
 }
