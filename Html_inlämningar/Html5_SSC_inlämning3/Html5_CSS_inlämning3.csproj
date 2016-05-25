@@ -66,6 +66,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\3.png" />
+    <Content Include="Images\4.png" />
+    <Content Include="Images\5.png" />
     <Content Include="Images\Anteckningar.png" />
     <Content Include="Images\baby-girl2.png" />
     <Content Include="Images\BlackGardinet.PNG" />
@@ -91,6 +94,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Pages\4.html" />
+    <Content Include="Pages\5.html" />
     <Content Include="Pages\Apps\camera.html" />
     <Content Include="Pages\Apps\Facebook.html" />
     <Content Include="Pages\Apps\iframes\facebookiframe.html" />
@@ -104,6 +109,7 @@
     <Content Include="index.html" />
     <Content Include="Pages\Apps\medelanden.html" />
     <Content Include="Scripts\webcam.js" />
+    <Content Include="Styles\Style4.css" />
     <Content Include="Styles\Styleiphone.css" />
     <Content Include="Styles\StyleMedelanden.css" />
     <Content Include="Styles\StylesScreen.css" />

@@ -176,9 +176,14 @@ li {
     background-image: url('../Images/medelanden.png');
 }
 #sizes {
-    background-image: url('../Images/PesponsivesitesApp.png');
+    background-image: url('../Images/3.png');
 }
-
+#four {
+    background-image: url('../Images/4.png');
+}
+#five {
+    background-image: url('../Images/5.png');
+}
 #button {
     position: absolute;
     left: 710px;
