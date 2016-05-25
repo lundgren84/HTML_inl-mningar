@@ -77,6 +77,7 @@
     <Content Include="Images\kamera.png" />
     <Content Include="Images\medelanden.png" />
     <Content Include="Images\medpic.png" />
+    <Content Include="Images\PesponsivesitesApp.png" />
     <Content Include="Images\photobk.png" />
     <Content Include="Images\postitlap.jpg" />
     <Content Include="Images\tradera.png" />
@@ -105,7 +106,7 @@
     <Content Include="Scripts\webcam.js" />
     <Content Include="Styles\Styleiphone.css" />
     <Content Include="Styles\StyleMedelanden.css" />
-    <Content Include="Styles\StyleSheet1.css" />
+    <Content Include="Styles\StylesScreen.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
