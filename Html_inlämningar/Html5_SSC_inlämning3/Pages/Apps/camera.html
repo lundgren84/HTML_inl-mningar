@@ -3,7 +3,6 @@
 <head>
     <title>Iphone</title>
     <meta charset="utf-8" />
-    <script src="../../Scripts/webcam.js"></script>
     <link href="../../Styles/Styleiphone.css" rel="stylesheet" />
 </head>
 <body>
@@ -16,8 +15,27 @@
         <div id="flash"></div>
         <div id="ear"></div>
         <div id="window4Cam">
-            <video autoplay controls id="webcam"></video>
+            <video autoplay id="webcam"></video>
         </div>
+        <script>
+            // ctrl-copy.. ska kolla igenom när jag lärt mig java-script grunderna!
+            var video = document.querySelector("#webcam");
+
+            navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia || navigator.oGetUserMedia;
+
+            if (navigator.getUserMedia) {
+                navigator.getUserMedia({ video: true }, handleVideo, videoError);
+            }
+
+            function handleVideo(stream) {
+                video.src = window.URL.createObjectURL(stream);
+            }
+
+            function videoError(e) {
+                // do something
+            }
+
+        </script>
 
         <a href="/index.html"> <div id="button"><div id="insidebutton"></div></div></a>
     </div>

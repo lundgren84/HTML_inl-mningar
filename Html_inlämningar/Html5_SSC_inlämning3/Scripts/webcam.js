@@ -1,4 +1,4 @@
-﻿var video = document.querySelector("#webcam");
+﻿var video = document.querySelector("#videoElement");
 
 navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia || navigator.oGetUserMedia;
 
@@ -11,9 +11,5 @@ function handleVideo(stream) {
 }
 
 function videoError(e) {
-    
+    // do something
 }
-//---------------------------------
-
-
-
