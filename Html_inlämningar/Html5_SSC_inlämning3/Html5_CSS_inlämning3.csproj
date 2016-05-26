@@ -95,7 +95,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Pages\4.html" />
-    <Content Include="Pages\5.html" />
     <Content Include="Pages\Apps\camera.html" />
     <Content Include="Pages\Apps\Facebook.html" />
     <Content Include="Pages\Apps\iframes\facebookiframe.html" />
