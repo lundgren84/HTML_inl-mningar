@@ -82,6 +82,7 @@ a{
 li a{
     font-size:xx-large;
 }
+
     section:hover .drop {
         position: relative;
         height: 20px;

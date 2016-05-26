@@ -66,9 +66,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="image\4\alacarte.jpg" />
-    <Content Include="image\4\baconburgare.jpg" />
-    <Content Include="image\4\lunch.jpg" />
+    <Content Include="image\alacarte.jpg" />
+    <Content Include="image\baconburgare.jpg" />
+    <Content Include="image\lunch.jpg" />
     <Content Include="image\Anteckningar.png" />
     <Content Include="javascript\JavaScript.js" />
     <Content Include="packages.config" />
