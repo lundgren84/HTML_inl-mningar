@@ -99,8 +99,21 @@ iframe {
         -moz-transition: all .5s;
         -o-transition: width .5s;
         transition: all .5s;
+        -moz-animation: olle .4s infinite;
+        -o-animation: olle .4s infinite;
+        -webkit-animation: olle .4s infinite;
+        animation: olle .4s infinite;
+        -moz-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        -o-transform: rotate(-5deg);
+        -webkit-transform: rotate(-5deg);
+        transform: rotate(-5deg);
     }
-
+    @keyframes olle{
+        50%{
+            transform:rotate(5deg);
+        }
+    }
 #anteckningar {
     background-image: url(../Images/Anteckningar.png);
 }
