@@ -1,5 +1,5 @@
 ﻿body {
- background-color:gold;
+    background-color: gold;
 }
 
 #frame {
@@ -108,63 +108,76 @@ iframe {
         -webkit-transform: rotate(-5deg);
         transform: rotate(-5deg);
     }
-    @keyframes olle{
-        50%{
-            transform:rotate(5deg);
-        }
+
+@keyframes olle {
+    50% {
+        transform: rotate(5deg);
     }
+}
 
 #anteckningar {
     background-image: url(../Images/Anteckningar.png);
 }
 
-footer{
-    font-size:large;
+footer {
+    font-size: large;
 }
-.postit{
- font-family: Elephant;
-  
+
+.postit {
+    overflow: hidden;
+    font-family: Elephant;
     height: 120px;
     width: 120px;
     background-color: green;
     box-shadow: 5px 5px 5px;
-  
+    transform: rotate(7deg);
 }
+
 #postit1 {
-    font-family: Elephant;
     position: absolute;
     top: 100px;
     left: 20px;
-    height: 120px;
-    width: 120px;
-   
-    transform: rotate(7deg);
 }
+
+    #postit1:hover {
+        position: absolute;
+        top: 80px;
+        left: 30px;
+        -moz-transition: .5s ease;
+        -o-transition: .5s ease;
+        -webkit-transition:  .5s ease;
+        transition: .5s ease;
+    }
+
 #postit2 {
-    font-family: Elephant;
     position: absolute;
     top: 350px;
-    left:70px;
-    height: 120px;
-    width: 120px;
-    background-color: green;
-    box-shadow: 5px 5px 5px;
-    transform: rotate(7deg);
+    left: 70px;
 }
+
+    #postit2:hover {
+        position: absolute;
+        top: 150px;
+        left: 30px;
+        -moz-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        -webkit-transition: all .5s ease;
+        transition: all .5s ease;
+    }
+
 li {
     list-style: none;
 }
 
 .postit:hover {
-    position:absolute;
-    height: 60%;
-    width: 75%;
+    height: 250px;
+    width: 250px;
     background-color: aquamarine;
     font-size: xx-large;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    -o-transition: width .5s;
-    transition: all .5s;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
     -moz-animation: rotate 3s infinite;
     -o-animation: rotate 3s infinite;
     -webkit-animation: rotate 3s infinite;
@@ -207,15 +220,19 @@ li {
 #medelanden {
     background-image: url('../Images/medelanden.png');
 }
+
 #sizes {
     background-image: url('../Images/3.png');
 }
+
 #four {
     background-image: url('../Images/4.png');
 }
+
 #five {
     background-image: url('../Images/5.png');
 }
+
 #button {
     position: absolute;
     left: 710px;
@@ -283,103 +300,108 @@ li {
 
 
 @media only screen and (max-width: 768px) {
-    body{
+    body {
         background-color: blue;
     }
-        #frame {
-    height: 700px;
-    width:600px;
-    border: 3px solid black;
-    border-radius: 50px;
-    background-image: url('../Images/BlackGardinet.PNG');
-}
-        #window4Cam {
-    position: absolute;
-    top: 100px;
-    left: 30px;
-    width: 560px;
-    height: 500px;
-    border: 2px solid black;
-}
 
-#webcam {
-    width: 560px;
-    height: 500px;
-    background-color: gray;
-    background-image: url('../Images/photobk.png');
-}
+    #frame {
+        height: 700px;
+        width: 600px;
+        border: 3px solid black;
+        border-radius: 50px;
+        background-image: url('../Images/BlackGardinet.PNG');
+    }
 
-iframe {
-    margin: 0px;
-    position: absolute;
-    top: 100px;
-    left: 30px;
-    width: 560px;
-    height: 500px;
-}
+    #window4Cam {
+        position: absolute;
+        top: 100px;
+        left: 30px;
+        width: 560px;
+        height: 500px;
+        border: 2px solid black;
+    }
+
+    #webcam {
+        width: 560px;
+        height: 500px;
+        background-color: gray;
+        background-image: url('../Images/photobk.png');
+    }
+
+    iframe {
+        margin: 0px;
+        position: absolute;
+        top: 100px;
+        left: 30px;
+        width: 560px;
+        height: 500px;
+    }
+
     #camera {
-    height: 6px;
-    width: 6px;
-    background-color: gray;
-    border: 3px solid black;
-    margin-top: 20px;
-    margin-left: 49%;
-    border-radius: 50%;
-}
+        height: 6px;
+        width: 6px;
+        background-color: gray;
+        border: 3px solid black;
+        margin-top: 20px;
+        margin-left: 49%;
+        border-radius: 50%;
+    }
 
-#flash {
-    position: absolute;
-    top: 40px;
-    left: 100px;
-    height: 2px;
-    width: 2px;
-    margin-left: 120px;
-    margin-top: 10px;
-    background-color: gray;
-    border: 3px solid black;
-    border-radius: 50px;
-}
+    #flash {
+        position: absolute;
+        top: 40px;
+        left: 100px;
+        height: 2px;
+        width: 2px;
+        margin-left: 120px;
+        margin-top: 10px;
+        background-color: gray;
+        border: 3px solid black;
+        border-radius: 50px;
+    }
 
-#ear {
-    position: absolute;
-    top: 50px;
-    left: 270px;
-    height: 4px;
-    width: 70px;
-    background-color: gray;
-    border: 3px solid black;
-    border-radius: 50px;
-}
+    #ear {
+        position: absolute;
+        top: 50px;
+        left: 270px;
+        height: 4px;
+        width: 70px;
+        background-color: gray;
+        border: 3px solid black;
+        border-radius: 50px;
+    }
 
-.window {
-    position: absolute;
-    top: 100px;
-    left: 30px;
-    width: 555px;
-    height: 500px;
-    border: 2px solid black;
-    background-color: gray;
-    background-image: url('../Images/baby-girl2.png');
-}
-  #sidebutton4 {
-    position: absolute;
-    left: 612px;
-    top: 140px;
-    width: 4px;
-    height: 50px;
-    border-radius: 10px;
-    background-color: black;
-}
-  #button {
-    position: absolute;
-    left: 300px;
-    top: 620px;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    background-color: #270909;
-    border: 5px #240606;
-}
+    .window {
+        position: absolute;
+        top: 100px;
+        left: 30px;
+        width: 555px;
+        height: 500px;
+        border: 2px solid black;
+        background-color: gray;
+        background-image: url('../Images/baby-girl2.png');
+    }
+
+    #sidebutton4 {
+        position: absolute;
+        left: 612px;
+        top: 140px;
+        width: 4px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: black;
+    }
+
+    #button {
+        position: absolute;
+        left: 300px;
+        top: 620px;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: #270909;
+        border: 5px #240606;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -387,104 +409,109 @@ iframe {
     body {
         background-color: red;
     }
+
     #frame {
-    height: 700px;
-    width: 350px;
-    border: 3px solid black;
-    border-radius: 50px;
-    background-image: url('../Images/BlackGardinet.PNG');
-}
+        height: 700px;
+        width: 350px;
+        border: 3px solid black;
+        border-radius: 50px;
+        background-image: url('../Images/BlackGardinet.PNG');
+    }
+
     #camera {
-    height: 6px;
-    width: 6px;
-    background-color: gray;
-    border: 3px solid black;
-    margin-top: 20px;
-    margin-left: 49%;
-    border-radius: 50%;
-}
-#window4Cam {
-    position: absolute;
-    top: 100px;
-    left: 30px;
-    width: 308px;
-    height: 500px;
-    border: 2px solid black;
-}
+        height: 6px;
+        width: 6px;
+        background-color: gray;
+        border: 3px solid black;
+        margin-top: 20px;
+        margin-left: 49%;
+        border-radius: 50%;
+    }
 
-#webcam {
-    width: 308px;
-    height: 500px;
-    background-color: gray;
-    background-image: url('../Images/photobk.png');
-}
+    #window4Cam {
+        position: absolute;
+        top: 100px;
+        left: 30px;
+        width: 308px;
+        height: 500px;
+        border: 2px solid black;
+    }
 
-iframe {
-    margin: 0px;
-    position: absolute;
-    top: 100px;
-    left: 30px;
-    width: 308px;
-    height: 500px;
-}
-#flash {
-    position: absolute;
-    top: 40px;
-    left: 7px;
-    height: 2px;
-    width: 2px;
-    margin-left: 120px;
-    margin-top: 10px;
-    background-color: gray;
-    border: 3px solid black;
-    border-radius: 50px;
-}
+    #webcam {
+        width: 308px;
+        height: 500px;
+        background-color: gray;
+        background-image: url('../Images/photobk.png');
+    }
 
-#ear {
-    position: absolute;
-    top: 50px;
-    left: 150px;
-    height: 4px;
-    width: 70px;
-    background-color: gray;
-    border: 3px solid black;
-    border-radius: 50px;
-}
+    iframe {
+        margin: 0px;
+        position: absolute;
+        top: 100px;
+        left: 30px;
+        width: 308px;
+        height: 500px;
+    }
 
-.window {
-    position: absolute;
-    top: 100px;
-    left: 30px;
-    width: 308px;
-    height: 500px;
-    border: 2px solid black;
-    background-color: gray;
-    background-image: url('../Images/baby-girl2.png');
-}
- #button {
-    position: absolute;
-    left: 160px;
-    top: 620px;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    background-color: #270909;
-    border: 5px #240606;
-}
- #sidebutton4 {
-    position: absolute;
-    left: 362px;
-    top: 140px;
-    width: 4px;
-    height: 50px;
-    border-radius: 10px;
-    background-color: black;
-}
+    #flash {
+        position: absolute;
+        top: 40px;
+        left: 7px;
+        height: 2px;
+        width: 2px;
+        margin-left: 120px;
+        margin-top: 10px;
+        background-color: gray;
+        border: 3px solid black;
+        border-radius: 50px;
+    }
+
+    #ear {
+        position: absolute;
+        top: 50px;
+        left: 150px;
+        height: 4px;
+        width: 70px;
+        background-color: gray;
+        border: 3px solid black;
+        border-radius: 50px;
+    }
+
+    .window {
+        position: absolute;
+        top: 100px;
+        left: 30px;
+        width: 308px;
+        height: 500px;
+        border: 2px solid black;
+        background-color: gray;
+        background-image: url('../Images/baby-girl2.png');
+    }
+
+    #button {
+        position: absolute;
+        left: 160px;
+        top: 620px;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: #270909;
+        border: 5px #240606;
+    }
+
+    #sidebutton4 {
+        position: absolute;
+        left: 362px;
+        top: 140px;
+        width: 4px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: black;
+    }
 }
 
 @media only print {
     body {
         background-color: white;
     }
-    
 }
