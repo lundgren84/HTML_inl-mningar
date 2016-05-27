@@ -2,7 +2,12 @@
     background: #e74c3c;
     font-family: 'Lato', sans-serif;
 }
-
+span{
+    float:right;
+}
+span:before{
+    content:"Phone";
+}
 .drop {
     transition: all ease 1s;
     z-index: 11;
@@ -224,4 +229,7 @@ footer {
         top: 1130px;
         left: 50%;
     }
+      span:before{
+          content:"Screen";
+      }
 }
