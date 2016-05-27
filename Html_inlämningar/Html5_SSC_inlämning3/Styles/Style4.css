@@ -130,7 +130,10 @@ footer {
 @media only screen and (min-width: 768px) {
 
     img{
-       width:auto;
+       width:30%;
+      position:relative;
+      left:50%;
+      
     }
     li {
     color: #fff;
@@ -158,7 +161,13 @@ footer {
         transform: rotate(2deg);
         animation: olle .8s infinite;
     }
-
+    section {
+    font-size: 700%;
+    width: 30%;
+    height: 200px;
+    background-color: blue;
+    
+}
 
 
 
