@@ -124,15 +124,18 @@ footer {
 }
 
 .postit {
-    z-index:1;
-     font-size: x-large;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    z-index: 1;
+    font-size: x-large;
     overflow: hidden;
     font-family: Elephant;
     height: 120px;
     width: 120px;
     background-color: green;
     box-shadow: 5px 5px 5px;
-   
 }
 
 #postit1 {
@@ -197,10 +200,8 @@ li {
     width: 250px;
     background-color: aquamarine;
    
-    -moz-transition: .5s ease-in-out;
-    -o-transition: .5s ease-in-out;
-    -webkit-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;
+  
+  
     -moz-animation: rotate 3s infinite;
     -o-animation: rotate 3s infinite;
     -webkit-animation: rotate 3s infinite;
