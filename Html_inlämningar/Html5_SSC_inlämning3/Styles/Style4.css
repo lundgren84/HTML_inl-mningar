@@ -123,7 +123,7 @@ footer {
     font-size: 60px;
 }
 
-@media only screen and (min-width: 768px) {
+@media  (min-width: 768px) {
 
     img {
         z-index: 12;
@@ -158,7 +158,7 @@ footer {
 
     section {
         font-size: 700%;
-        width: 40%;
+        width: 400px;
         height: 200px;
         margin-bottom: 100px;
         border-bottom: solid black 3px;
@@ -212,16 +212,16 @@ footer {
     #img1 {
         position: absolute;
         top: 530px;
-        left: 1000px;
+        left: 50%;
     }
      #img2 {
         position: absolute;
         top: 830px;
-        left: 1000px;
+         left: 50%;
     }
       #img3 {
         position: absolute;
         top: 1130px;
-        left: 1000px;
+        left: 50%;
     }
 }
