@@ -1,25 +1,23 @@
 ﻿body {
-    background-image: url('../Images/BlackGardinet.PNG');
-    margin: 0px;
-    padding: 0px;
+   
     background: #e74c3c;
     font-family: 'Lato', sans-serif;
 }
 
 .drop {
-    z-index:0;
+    z-index: 0;
     color: black;
-    font-size: larger;
+    font-size:100px;
     font-family: 'Lobster';
     background-color: gold;
-    height:0px;
+    height: 0px;
     overflow: hidden;
-    margin:0px;
-    padding:0px;
-    
+    margin: 0px;
+    padding: 0px;
 }
-img{
-    width:100%;
+
+img {
+    width: 100%;
 }
 
 header {
@@ -27,45 +25,43 @@ header {
 
 h2 {
     font-family: 'Lobster';
+    font-size:larger;
 }
-h1:hover{
-    animation:kalle 3s infinite;
+
+h1:hover {
+    animation: kalle 3s infinite;
 }
-@keyframes kalle{
-    50%{
-      
-        color:gold;
+
+@keyframes kalle {
+    50% {
+        color: gold;
     }
 }
+
 ul {
-   
-   
     padding-left: 0;
-    
-    width:100%;
+    width: 100%;
 }
 
 li {
-   
     color: #fff;
     text-align: center;
     list-style: none;
     width: 100%;
     height: 150px;
     background-color: red;
-    margin-bottom:5px;
+    margin-bottom: 5px;
 }
 
-li:hover {
-    opacity: .3;
-   
-    -moz-transition: 1s;
-    -o-transition: 1s;
-    -webkit-transition: 1s;
-    transition: 1s;
-    transform: rotate(2deg);
-    animation: olle .8s infinite;
-}
+    li:hover {
+        opacity: .3;
+        -moz-transition: 1s;
+        -o-transition: 1s;
+        -webkit-transition: 1s;
+        transition: 1s;
+        transform: rotate(2deg);
+        animation: olle .8s infinite;
+    }
 
 @keyframes olle {
     50% {
@@ -75,40 +71,45 @@ li:hover {
 }
 
 section {
-  font-size:700%;
+    font-size: 700%;
     width: 100%;
-    height: 300px;
+    height: 200px;
     background-color: blue;
-}
-a{
-    text-decoration:none;
-}
-li a{
-    font-size:700%;
+    
 }
 
-    section:hover .drop {
-        position: relative;
-        height: 220px;
-        -moz-transition: 1s;
-        -o-transition: 1s;
-        -webkit-transition: ease-in-out;
-        transition: 1s;
-    }
+a {
+    text-decoration: none;
+}
 
-    section:hover {
-        margin-bottom: 280px;
-        -moz-transition: 1s;
-        -o-transition: 1s;
-        -webkit-transition: 1s;
-        transition: 1s;
-        animation: animSection 1s infinite;
+li a {
+    font-size: 700%;
+}
+
+section:hover .drop {
+    position: relative;
+    height: 180px;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    -webkit-transition: ease-in-out;
+    transition: 1s;
+}
+
+section:hover {
+    margin-bottom: 280px;
+    -moz-transition: 1s ease all;
+    -o-transition: 1s ease all;
+    -webkit-transition: 1s ease all;
+    transition: 1s ease all;
+    animation: animSection 1s infinite;
+}
+
+
+@keyframes animSection {
+    50% {
+        color: gold;
     }
-    @keyframes animSection{
-        50%{       
-            color : gold;
-        }
-    }
+}
 
 
 h1 {
@@ -118,9 +119,51 @@ h1 {
     font-size: 150px;
     font-family: 'Lobster';
 }
-footer{
-    margin-top:240px;
-   border-top: 3px solid black;
-    font-family:'lobser';
-    font-size:xx-large
+
+footer {
+    margin-top: 240px;
+    border-top: 3px solid black;
+    font-family: 'lobser';
+    font-size: 60px;
+}
+
+@media only screen and (min-width: 768px) {
+
+    img{
+       width:auto;
+    }
+    li {
+    color: #fff;
+    text-align: center;
+    list-style: none;
+    width:500px;
+    height: 100px;
+   margin:50px 50px 0px 50px;
+    margin-bottom: 5px;
+    float:left;
+    font-size:small;
+       
+    
+}
+    ul{
+        display:block;
+        width:100%;
+        height:200px;
+        background-color:red;
+       
+    }
+
+    li:hover {
+        opacity: .3;
+        -moz-transition: 1s;
+        -o-transition: 1s;
+        -webkit-transition: 1s;
+        transition: 1s;
+        transform: rotate(2deg);
+        animation: olle .8s infinite;
+    }
+
+
+
+
 }
