@@ -144,7 +144,7 @@ footer {
     font-size:small;   
 }
     ul{
-      
+      justify-content:flex-start;
         display:flex;
         width:100%;
         height:100px;
