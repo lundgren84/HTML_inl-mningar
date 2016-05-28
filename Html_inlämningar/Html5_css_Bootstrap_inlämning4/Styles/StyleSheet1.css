@@ -1,0 +1,47 @@
+﻿body {
+    background-color: blueviolet;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+.eye {
+    margin-top:20px;
+    background-image: url('../Pages/maldives-666122.jpg');
+    background-size: cover;
+    border-radius: 40% 40% 40% 40%;
+    width: 100%;
+    height: 800px;
+    transition: all 2s;
+}
+ul{
+    margin-left:0%;
+}
+li{
+    border:
+    font-size:30px;
+    list-style:none;
+    text-align:center;
+    height:40px;
+    width:100%;
+    background-color:peru;
+    
+}
+a{
+    color:black;
+    
+}
+a:hover{
+    animation:olle 1s infinite;
+    text-decoration:none;
+    
+}
+@keyframes olle{
+    50%{
+        font-size:40px;
+        color:gold;
+    }
+}
