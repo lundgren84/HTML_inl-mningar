@@ -72,10 +72,11 @@
     <Content Include="Images\Maldivegame\IMG_2179.JPG" />
     <Content Include="Images\Maldivegame\jellyfish-293969.png" />
     <Content Include="Images\Maldivegame\sunfish.gif" />
+    <Content Include="Images\veligandu-island-1044366.jpg" />
     <Content Include="MoreScript\JavaScript.js" />
     <Content Include="packages.config" />
     <Content Include="Pages\MaldiveGame.html" />
-    <Content Include="Pages\maldives-666122.jpg" />
+    <Content Include="Images\maldives-666122.jpg" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
