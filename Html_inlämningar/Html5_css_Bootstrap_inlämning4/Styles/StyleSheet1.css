@@ -11,6 +11,8 @@ header {
     background-color: blueviolet;
 }
 footer{
+  
+    width:100%;
     color:white;
     margin-top:30px;
 border-top:10px solid gray;
@@ -36,7 +38,7 @@ h1{
          font-size:150%;
      }
  }
-.logo{
+.sun{
     position:absolute;
     top:20px;
     right:40px;
