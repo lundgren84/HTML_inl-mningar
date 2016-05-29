@@ -66,8 +66,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\Cool-rocking-animated-sun-with-sunglasses-and-smoke.gif" />
+    <Content Include="Images\Maldivegame\Animated-moving-dolphin-swimming.gif" />
     <Content Include="Images\Maldivegame\IMG_2177.JPG" />
     <Content Include="Images\Maldivegame\IMG_2179.JPG" />
+    <Content Include="Images\Maldivegame\jellyfish-293969.png" />
+    <Content Include="Images\Maldivegame\sunfish.gif" />
     <Content Include="MoreScript\JavaScript.js" />
     <Content Include="packages.config" />
     <Content Include="Pages\MaldiveGame.html" />

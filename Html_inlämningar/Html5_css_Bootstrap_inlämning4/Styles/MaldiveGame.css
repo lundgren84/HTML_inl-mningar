@@ -6,8 +6,8 @@
     height:100px;
 }
 .game {
-    border-top:20px solid gold;
-    border-bottom:20px solid gold;
+    border-top:20px solid lightblue;
+    border-bottom:20px solid  lightblue;
     height:1200px;
     width:100%;
     background-image: url('../Images/Maldivegame/IMG_2179.JPG');
