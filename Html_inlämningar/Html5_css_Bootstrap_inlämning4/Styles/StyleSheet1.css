@@ -9,7 +9,7 @@ header {
 }
 
 .eye {
-    margin-top:20px;
+    margin-top: 20px;
     background-image: url('../Pages/maldives-666122.jpg');
     background-size: cover;
     border-radius: 40% 40% 40% 40%;
@@ -17,31 +17,72 @@ header {
     height: 800px;
     transition: all 2s;
 }
-ul{
-    margin-left:0%;
+
+
+
+li {
+  
+    border: font-size:30px;
+    list-style: none;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    margin-left:0%;  
 }
-li{
-    border:
-    font-size:30px;
-    list-style:none;
-    text-align:center;
-    height:40px;
-    width:100%;
-    background-color:peru;
-    
+
+a {
+    color: black;
 }
-a{
-    color:black;
-    
-}
-a:hover{
-    animation:olle 1s infinite;
-    text-decoration:none;
-    
-}
-@keyframes olle{
-    50%{
-        font-size:40px;
-        color:gold;
+
+    a:hover {
+        animation: olle 1s infinite;
+        text-decoration: none;
+    }
+
+@keyframes olle {
+    50% {
+        color: gold;
+        text-shadow:10px 10px 10px red;
     }
 }
+
+.grid-button {
+    z-index: 4;
+    position: fixed;  
+    padding: 20px;
+}
+.grid.grid:hover{
+    color:gold;
+}
+
+.grid {
+    background-color: #FFF;
+    color: #FFF;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+    .grid.open {
+        box-shadow: -20px -20px, 0px -20px, 20px -20px, -20px 0px,20px 0px, -20px 20px, 0px 20px, 20px 20px;
+    }
+
+    .grid.close {
+        box-shadow: -24px 0px, -48px 0px, 0px -24px, 0px 48px, 0px -48px, 0px 24px, 48px 0px, 24px 0px;
+        transform: rotate(45deg) scale(0.75);
+    }
+    .menu{
+        position:fixed;
+    left:-200px;
+    top:70px;
+    transition:all .5s ease-in-out;
+      
+    }
+    .menu.open{
+        left:-10px;
+    }
+    .menu.close{
+        left:5px;
+        opacity:1;
+    }
