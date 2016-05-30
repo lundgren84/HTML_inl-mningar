@@ -130,6 +130,7 @@
     <Content Include="Styles\MaldiveGame.css" />
     <Content Include="Styles\photos.css" />
     <Content Include="Styles\StyleSheet1.css" />
+    <Content Include="Styles\StyleSheetscreen.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
