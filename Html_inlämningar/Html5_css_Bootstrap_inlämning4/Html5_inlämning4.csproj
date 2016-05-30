@@ -68,6 +68,22 @@
   <ItemGroup>
     <Content Include="Images\contact-us-1208462_960_720.png" />
     <Content Include="Images\Cool-rocking-animated-sun-with-sunglasses-and-smoke.gif" />
+    <Content Include="Images\DreamPhotos\anemone-430363_640.jpg" />
+    <Content Include="Images\DreamPhotos\beach-1044369_640.jpg" />
+    <Content Include="Images\DreamPhotos\cocktails-648851_640.jpg" />
+    <Content Include="Images\DreamPhotos\maldives-1095102_640.jpg" />
+    <Content Include="Images\DreamPhotos\maldives-1095105_640.jpg" />
+    <Content Include="Images\DreamPhotos\maldives-1095127_640.jpg" />
+    <Content Include="Images\DreamPhotos\maldives-1268660_640.jpg" />
+    <Content Include="Images\DreamPhotos\maldives-1268661_640.jpg" />
+    <Content Include="Images\DreamPhotos\maldives-16385_640.jpg" />
+    <Content Include="Images\DreamPhotos\maldives-209123_640.jpg" />
+    <Content Include="Images\DreamPhotos\maldives-231123_640.jpg" />
+    <Content Include="Images\DreamPhotos\maldives-261504_640.jpg" />
+    <Content Include="Images\DreamPhotos\maldives-262523_640.jpg" />
+    <Content Include="Images\DreamPhotos\maldives-361244_640.jpg" />
+    <Content Include="Images\DreamPhotos\platax-fish-430364_640.jpg" />
+    <Content Include="Images\DreamPhotos\prawn-241048_640.jpg" />
     <Content Include="Images\Maldivegame\Animated-moving-dolphin-swimming.gif" />
     <Content Include="Images\Maldivegame\IMG_2177.JPG" />
     <Content Include="Images\Maldivegame\IMG_2179.JPG" />
@@ -112,6 +128,7 @@
     <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Styles\contact.css" />
     <Content Include="Styles\MaldiveGame.css" />
+    <Content Include="Styles\photos.css" />
     <Content Include="Styles\StyleSheet1.css" />
     <Content Include="Web.config" />
   </ItemGroup>
