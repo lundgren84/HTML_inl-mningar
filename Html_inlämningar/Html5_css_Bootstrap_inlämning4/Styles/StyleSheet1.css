@@ -44,11 +44,7 @@ h1 {
     }
 }
 
-.sun {
-    position: absolute;
-    top: 20px;
-    right: 40px;
-}
+
 
 .eye {
     margin-top: 20px;
@@ -159,4 +155,17 @@ a {
     .menu.close {
         left: 50px;
         opacity: 1;
+    }
+    @media (min-768px){
+
+    }
+    @media only screen (min-860px){
+
+        .grid-button,.grid,.open
+        {
+           display:none;
+        }
+        .menu{
+
+        }
     }
