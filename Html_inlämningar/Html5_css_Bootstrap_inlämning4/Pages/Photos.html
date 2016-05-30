@@ -14,13 +14,14 @@
     <link href="../Styles/photos.css" rel="stylesheet" />
 </head>
 <body>
-    <header class="container-fluid">
+    <header id="top" class="container-fluid">
         <h1>
             Resort Roc
             <span id="stars">&lowast;&lowast;&lowast;&lowast;&lowast;</span>
         </h1>
         <div class="sun">
-            <img src="Images/Cool-rocking-animated-sun-with-sunglasses-and-smoke.gif" />
+
+            <img src="../Images/Cool-rocking-animated-sun-with-sunglasses-and-smoke.gif" />
         </div>
         <div class="grid-button">
             <span class="grid open"></span>
@@ -38,64 +39,82 @@
         </nav>
 
     </header>
-    <div class="container">
+    <div  class="container">
         <div class="row">
-            <div class="photo">
+            <div class="col-md-4 shortcut"> <a  href="#beach">Beach Photos</a></div>
+            <div class="col-md-4 shortcut"><a  href="#sea">Sea Photos</a></div>
+            <div class="col-md-4 shortcut"><a  href="#resort">Resort Photos</a></div>
+        </div>
+        <div class="photo">
+            <div class="beach" id="beach">
+                <div class="row">
+                    <h2 class="h2photos col-xs-9">Beach photos</h2><a class="col-xs-3 totop" href="#top">To Top</a>
+                </div>
+                <figure>
+                    <img class="figimg" src="../Images/DreamPhotos/maldives-1095127_640.jpg" />
+                    <figcaption>South side of Veligandu</figcaption>
+                </figure>
+                <figure>
+                    <img class="figimg" src="../Images/DreamPhotos/maldives-209123_640.jpg" />
+                    <figcaption>Next to resort Roc</figcaption>
+                </figure>
+                <figure>
+                    <img class="figimg" src="../Images/DreamPhotos/maldives-16385_640.jpg" />
+                </figure>
+                <figure>
+                    <img class="figimg" src="../Images/DreamPhotos/maldives-361244_640.jpg" />
+                </figure>
+                <figure>
+                    <img class="figimg" src="../Images/DreamPhotos/maldives-1095102_640.jpg" />
+                </figure>
+            </div>
+
+            <div class="sea" id="sea">
+               
+
+                <div class="row">
+                    <h2 class="h2photos col-xs-9">Sea photos</h2><a class="col-xs-3 totop" href="#top">To Top</a>
+                </div>
+                <figure>
+                    <img class="figimg" src="../Images/DreamPhotos/maldives-1268660_640.jpg" />
+                </figure>
+                <figure>
+                    <img class="figimg" src="../Images/DreamPhotos/maldives-1268661_640.jpg" />
+                </figure>
+                <figure>
+                    <img class="figimg" src="../Images/DreamPhotos/maldives-231123_640.jpg" />
+                </figure>
+                <figure>
+                    <img class="figimg" src="../Images/DreamPhotos/platax-fish-430364_640.jpg" />
+                </figure>
+                <figure>
+                    <img class="figimg" src="../Images/DreamPhotos/anemone-430363_640.jpg" />
+                </figure>
+
+            </div>
+            <div class="resort" id="resort">
+                <div class="row">
+                    <h2 class="h2photos col-xs-9">Resort photos</h2><a class="col-xs-3 totop" href="#top">To Top</a>
+                </div>              
                 <figure>
                     <img src="../Images/DreamPhotos/maldives-1095105_640.jpg" />
                     <figcaption></figcaption>
                 </figure>
                 <figure>
-                    <img src="../Images/DreamPhotos/maldives-1095127_640.jpg" />
+                    <img class="figimg" src="../Images/DreamPhotos/maldives-261504_640.jpg" />
                 </figure>
                 <figure>
-                    <img src="../Images/DreamPhotos/maldives-1268660_640.jpg" />
+                    <img class="figimg" src="../Images/DreamPhotos/maldives-262523_640.jpg" />
                 </figure>
                 <figure>
-                    <img src="../Images/DreamPhotos/maldives-1268661_640.jpg" />
-                </figure>
-
-                <figure>
-                    <img src="../Images/DreamPhotos/maldives-16385_640.jpg" />
-                </figure>
-
-                <figure>
-                    <img src="../Images/DreamPhotos/maldives-209123_640.jpg" />
-                </figure>
-
-                <figure>
-                <img src="../Images/DreamPhotos/maldives-231123_640.jpg" />
-                </figure>
-
-                <figure>
-                    <img src="../Images/DreamPhotos/maldives-261504_640.jpg" />
-                </figure>
-
-                <figure>
-                <img src="../Images/DreamPhotos/maldives-262523_640.jpg" />
+                    <img class="figimg" src="../Images/DreamPhotos/prawn-241048_640.jpg" />
                 </figure>
                 <figure>
-                <img src="../Images/DreamPhotos/maldives-361244_640.jpg" />
+                    <img class="figimg" src="../Images/DreamPhotos/beach-1044369_640.jpg" />
                 </figure>
                 <figure>
-                <img src="../Images/DreamPhotos/platax-fish-430364_640.jpg" />
+                    <img class="figimg" src="../Images/DreamPhotos/cocktails-648851_640.jpg" />
                 </figure>
-                <figure>
-                <img src="../Images/DreamPhotos/prawn-241048_640.jpg" />
-                </figure>
-                <figure>
-                <img src="../Images/DreamPhotos/anemone-430363_640.jpg" />
-                </figure>
-                <figure>
-                <img src="../Images/DreamPhotos/beach-1044369_640.jpg" />
-                </figure>
-                <figure>
-                <img src="../Images/DreamPhotos/cocktails-648851_640.jpg" />
-                </figure>
-                <figure>
-                <img src="../Images/DreamPhotos/maldives-1095102_640.jpg" />
-                </figure>
-
             </div>
         </div>
     </div>

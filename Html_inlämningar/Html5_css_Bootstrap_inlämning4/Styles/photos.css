@@ -1,7 +1,46 @@
 ﻿body {
 }
-.photo{
 
-    display:flex;
-    flex-wrap:wrap;
+.photo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shortcut {
+    border: 2px solid gray;
+    height: 100px;
+    font-size: 350%;
+    background-color: aqua;
+    text-align: center;
+}
+
+.h2photos {
+    text-align: left;
+    font-size: 300%;
+    border-bottom: solid gray 2px;
+}
+
+.totop {
+    font-size: 150%;
+    height: 10%;
+    width: 10%;
+    background-color: goldenrod;
+    border-radius: 50%;
+}
+
+.figimg {
+    transition: all 2s;
+     width:100%;
+}
+
+    .figimg:hover {
+       
+        border-radius: 20px;
+        transform: rotate(360deg) rotateY(360deg);
+        box-shadow: 50px 50px 200px gold, -50px -50px 200px gold, 50px -50px 200px gold, -50px 50px 200px gold;
+    }
+      
+figcaption {
+    font-size: 300%;
+    transition: all 2s;
 }
