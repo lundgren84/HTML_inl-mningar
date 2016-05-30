@@ -15,29 +15,33 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-.sunfish{
-     position: absolute;
+
+.sunfish {
+    position: absolute;
     top: 600%;
     left: 1%;
-    animation: sunfishswim 7s infinite; 
+    animation: sunfishswim 7s infinite;
 }
-@keyframes sunfishswim{
-    50%{
-           top: 500%;
+
+@keyframes sunfishswim {
+    50% {
+        top: 500%;
         left: 40%;
-         transform: rotateY(180deg);
+        transform: rotateY(180deg);
     }
 }
+
 .shark {
     position: absolute;
     top: 400%;
     left: 1%;
-    animation: sharkswim 5s infinite;  
+    animation: sharkswim 5s infinite;
 }
+
 @keyframes sharkswim {
     50% {
         top: 300%;
         left: 80%;
-         transform: rotateY(180deg);
+        transform: rotateY(180deg);
     }
 }
