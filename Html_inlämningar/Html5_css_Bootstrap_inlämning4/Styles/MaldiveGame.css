@@ -1,16 +1,43 @@
 ﻿body {
-  
 }
-.gametext{
-    width:100%;
-    height:100px;
+
+.gametext {
+    width: 100%;
+    height: 100px;
 }
+
 .game {
-    border-top:20px solid lightblue;
-    border-bottom:20px solid  lightblue;
-    height:1200px;
-    width:100%;
+    border-top: 20px solid lightblue;
+    border-bottom: 20px solid lightblue;
+    height: 1200px;
+    width: 100%;
     background-image: url('../Images/Maldivegame/IMG_2179.JPG');
     background-size: cover;
     background-repeat: no-repeat;
+}
+.sunfish{
+     position: absolute;
+    top: 600%;
+    left: 1%;
+    animation: sunfishswim 7s infinite; 
+}
+@keyframes sunfishswim{
+    50%{
+           top: 500%;
+        left: 40%;
+         transform: rotateY(180deg);
+    }
+}
+.shark {
+    position: absolute;
+    top: 400%;
+    left: 1%;
+    animation: sharkswim 5s infinite;  
+}
+@keyframes sharkswim {
+    50% {
+        top: 300%;
+        left: 80%;
+         transform: rotateY(180deg);
+    }
 }
