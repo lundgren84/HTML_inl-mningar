@@ -1,11 +1,9 @@
 ﻿body {
-    background-image: url('../Images/maldives-666122.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+ 
 }
-
-.photo {
-
+.flexbox{
+    display:flex;
+    flex-wrap:wrap;
 }
 
 .shortcut {
@@ -21,6 +19,7 @@
 }
 
 .h2photos {
+    
     text-align: left;
     font-size: 300%;
     width:100%; 
@@ -29,27 +28,24 @@
 
 .totop {
     border:solid black 2px;
+   
     font-size: 150%;
-    height: 10%;
-    width: 10%;
+    text-align:center;
     background-color: goldenrod;
     border-radius: 50%;
 }
 
-.figimg {
-   
-    transition: all 2s;
-    
-}
 
-    .figimg:hover {
-       
-        border-radius: 20px;
-        transform: rotate(360deg) rotateY(360deg);
-        box-shadow: 50px 50px 200px gold, -50px -50px 200px gold, 50px -50px 200px gold, -50px 50px 200px gold;
+
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+     header{
+       margin-bottom:20%;
     }
-      
-figcaption {
-    font-size: 300%;
-    transition: all 2s;
+}
+@media only screen and (min-width : 1224px) {
+     header{
+       margin-bottom:10%;
+    }
 }

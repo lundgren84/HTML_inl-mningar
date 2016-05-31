@@ -1,15 +1,23 @@
 ﻿body {
+    background-image: url('../../Images/DreamPhotos/maldives-1268660_640.jpg');
+    background-size:cover;
+    background-repeat:round;
 }
-
+.container{
+     background-color:coral;
+}
 .album_container {
+
     margin:10px;
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     perspective: 1000px;
 }
 
 .picture {
+    
+    font-size:20px;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -19,20 +27,27 @@
 }
 
 .front {
-    width: 100%;
-    height: 100%;
+    width: 250px;
+    height: 250px;
     position: absolute;
     backface-visibility:hidden;
+    overflow:hidden;
 }
 
 .back {
+    background-color:#b2b08b;
     width: 100%;
     height: 100%;
     position: absolute;
     transform: rotateY(180deg);
     backface-visibility:hidden;
-    background-color:coral;
+    text-align:center;
+    padding:20px;
+   
 }
 .picture:hover{
-    transform:rotateY(180deg);
+    
+      transform: rotateY(180deg) rotate(360deg);
+        box-shadow: 50px 50px 200px gold, -50px -50px 200px gold, 50px -50px 200px gold, -50px 50px 200px gold;
 }
+
