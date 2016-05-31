@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\contact-us-.png" />
     <Content Include="Images\contact-us-1208462_960_720.png" />
     <Content Include="Images\Cool-rocking-animated-sun-with-sunglasses-and-smoke.gif" />
     <Content Include="Images\DreamPhotos\anemone-430363_640.jpg" />
@@ -133,7 +134,6 @@
     <Content Include="Styles\MaldiveGame.css" />
     <Content Include="Styles\photos.css" />
     <Content Include="Styles\StyleSheet1.css" />
-    <Content Include="Styles\StyleSheetscreen.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
