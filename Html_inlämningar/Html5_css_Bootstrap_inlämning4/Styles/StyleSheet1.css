@@ -198,13 +198,7 @@ a {
     }
 
     .menu {
-        background-color: gray;
-        border: none;
-        width: 100%;
-        position: relative;
-        border-radius: 0px 0px 0px 0px;
-        left: 0%;
-        z-index: 4;
+ 
     }
 
     .lank {
