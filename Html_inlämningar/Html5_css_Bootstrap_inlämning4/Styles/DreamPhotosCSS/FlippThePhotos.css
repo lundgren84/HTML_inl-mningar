@@ -47,7 +47,8 @@
 }
 .picture:hover{
     
-      transform: rotateY(180deg) rotate(360deg);
+      transform: rotateY(180deg)  rotateX(360deg);
         box-shadow: 50px 50px 200px gold, -50px -50px 200px gold, 50px -50px 200px gold, -50px 50px 200px gold;
+
 }
 
