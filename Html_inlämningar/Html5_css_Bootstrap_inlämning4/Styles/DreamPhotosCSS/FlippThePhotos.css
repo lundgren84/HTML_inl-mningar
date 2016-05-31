@@ -1,0 +1,36 @@
+﻿body {
+}
+
+.album_container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    perspective: 1000px;
+}
+
+.picture {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0;
+    transition: 1s all;
+    transform-style:preserve-3d;
+}
+
+.front {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility:hidden;
+}
+
+.back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform: rotateY(180deg);
+    backface-visibility:hidden;
+}
+.picture:hover{
+    transform:rotateY(180deg);
+}

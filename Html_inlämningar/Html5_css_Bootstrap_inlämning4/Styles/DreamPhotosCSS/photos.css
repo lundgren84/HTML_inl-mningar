@@ -5,21 +5,25 @@
 }
 
 .photo {
-    display: flex;
-    flex-wrap: wrap;
+
 }
 
 .shortcut {
     border: 2px solid gray;
-    height: 80px;
+    height: 60px;
     font-size: 350%;
-    background-color: aqua;
+    background-color: darkgray;
     text-align: center;
+    transition:background-color 1s;
+}
+.shortcut:hover{
+     background-color: gray;
 }
 
 .h2photos {
     text-align: left;
     font-size: 300%;
+    width:100%; 
     border-bottom: solid gray 2px;
 }
 
@@ -35,7 +39,7 @@
 .figimg {
    
     transition: all 2s;
-     width:100%;
+    
 }
 
     .figimg:hover {
