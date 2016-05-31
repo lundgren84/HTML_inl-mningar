@@ -1,0 +1,66 @@
+﻿body {
+   
+    background-image: url('../Images/maldives-666122.jpg');
+    background-size: cover;
+  background-repeat:no-repeat;
+}
+
+.contactimg {
+    margin: 0px 0px 0px 0px;
+    background-size: cover;
+    background-image: url('../Images/contact-us-1208462_960_720.png');
+    height: 300px;
+  
+}
+
+#msg {
+    overflow: no-content;
+}
+
+.mailform {
+    margin-top:20px;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+#email {
+    width: 84%;
+}
+
+input, textarea {
+   
+    margin-bottom: 10%;
+}
+input, textarea,label,button,legend,.maildeliver,.heavenoneartharticle{
+      font-size: 290%;     
+}
+#Mailbutton {
+    width: 40%;
+    height: 10%;
+}
+
+.heavenonearth img{
+    margin: 80px 0px 30px 0px;
+    border-radius: 5% 5% 5% 5%;
+width:100%; 
+
+}
+.heavenoneartharticle{
+      margin-bottom:20px;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.3);
+    text-align:center;
+}
+h2{
+    font-size:150%;
+    text-decoration:underline;
+}
+@media only screen and (min-width : 1224px) {
+    .contactimg {
+        margin: 0px 0px 0px 0px;
+        
+        background-image: url('../Images/contact-us-.png');
+        height: 500px;
+    }
+ 
+}
