@@ -2,6 +2,7 @@
 }
 
 .album_container {
+    margin:10px;
     position: relative;
     width: 200px;
     height: 200px;
@@ -30,6 +31,7 @@
     position: absolute;
     transform: rotateY(180deg);
     backface-visibility:hidden;
+    background-color:coral;
 }
 .picture:hover{
     transform:rotateY(180deg);
