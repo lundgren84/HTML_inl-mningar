@@ -4,13 +4,6 @@
     background-repeat: no-repeat;
 }
 
-.contactimg {
-    margin: 0px 0px 0px 0px;
-    background-size: cover;
-    background-image: url('../Images/contact-us-1208462_960_720.png');
-    height: 300px;
-}
-
 #msg {
     overflow: no-content;
 }
@@ -55,6 +48,9 @@ h2 {
     font-size: 150%;
     text-decoration: underline;
 }
+#Mailbutton,input,textarea{
+    box-shadow:3px 3px 2px black;
+}
 
 @media only screen and (min-width : 1224px) {
     body {
@@ -62,10 +58,14 @@ h2 {
         background-size: cover;
         background-repeat: round;
     }
-
-    .contactimg {
-        margin: 0px 0px 0px 0px;
-        background-image: url('../Images/contact-us-.png');
-        height: 500px;
+    .contactimg{
+        margin-left:20%;
     }
+    label, input, textarea,button{
+        font-size:200%;
+    }
+    input, textarea {
+    margin-bottom: 0;
+  
+}
 }
