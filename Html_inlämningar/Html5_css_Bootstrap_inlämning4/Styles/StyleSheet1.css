@@ -1,16 +1,18 @@
 ﻿body {
     background-image: url('../Images/veligandu-island-1044366.jpg');
-    background-size:cover;
-    background-repeat:no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 h2, .dummy {
     text-align: center;
 }
+
 .container {
-        background-color: rgba(128, 128, 128,.9);
-        color:black;
-    }
+    background-color: rgba(128, 128, 128,.9);
+    color: black;
+}
+
 header {
     height: 120px;
     background-color: blueviolet;
@@ -52,29 +54,43 @@ h1 {
 
 
 .eye {
-    margin:20px 0px 20px 0px;
+    margin: 20px 0px 20px 0px;
     width: 50%;
-    z-index:3;
+    z-index: 3;
 }
 
 
 li {
-    margin: 30px 50px 50px 0px;
+    /*margin: 30px 50px 50px 0px;
     font-size: 50px;
     list-style: none;
     text-align: center;
     height: 40px;
     width: 92%;
-    opacity: .8;
+    opacity: .8;*/
+    width: 100%;
+   background-color:gray;
 }
 
 .lank {
+   
     transition: all .5s ease-in-out;
+   
+    font-size: 50px;
+    list-style: none;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    opacity: .8;
+    text-decoration:none;
 }
 
     .lank:hover {
         background-color: gray;
         border-radius: 10px;
+           animation: olle 1s infinite;
+        
+        text-shadow: 20px 20px 20px gold, -20px -20px 20px gold, 20px -20px 20px gold, -20px 20px 20px gold;
     }
 
 .menuhead {
@@ -87,13 +103,10 @@ a {
     height: 10%;
     color: black;
     transition: all 1s;
+    
 }
 
-    a:hover {
-        animation: olle 1s infinite;
-        text-decoration: none;
-        text-shadow: 20px 20px 20px gold, -20px -20px 20px gold, 20px -20px 20px gold, -20px 20px 20px gold;
-    }
+    
 
 @keyframes olle {
     50% {
@@ -151,11 +164,18 @@ a {
         left: 50px;
         opacity: 1;
     }
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    
-   
-    }
 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    header {
+        margin-bottom: 15%;
+    }
+}
+
+@media only screen and (min-device-width : 1070px) {
+    header {
+        margin-bottom: 15%;
+    }
+}
 
 
 @media only screen and (min-width : 1024px) {
@@ -163,9 +183,19 @@ a {
         background-image: url('../Images/veligandu-island-1044366.jpg');
         background-repeat: round;
     }
-    
+    .lank {
+   
+    transition: all .5s ease-in-out;
+    margin:0;
+    font-size: 50px;
+    list-style: none;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    opacity: .8;
+}
     header {
-        margin-bottom: 20%;
+        margin-bottom: 7%;
     }
 
     .menuhead {
@@ -177,26 +207,30 @@ a {
     }
 
     li {
-        width: auto;
-        margin: 2% 0% 0% 0%;
+        margin-top:2%;
+        transition: all .5s ease-in-out;
     }
 
         li:hover {
-            background-color: gold;
+          
+            background-color: darkgray;
+        }
+          li:hover .lank{
+             
+            background-color: darkgray;
         }
 
     a {
-        width: auto;
-        height: auto;
+        
         font-size: 60%;
     }
 
-    ul {
-        padding: 0%;
-    }
-
-    .menu {
- 
+    .toprow {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        padding: 0;
+        background: none;
     }
 
     .lank {
@@ -216,15 +250,14 @@ a {
                 text-decoration: none;
                 text-shadow: 20px 20px 20px gold, -20px -20px 20px gold, 20px -20px 20px gold, -20px 20px 20px gold;
             }
-    .dummy{
-        margin-left:20%;
-    }
-   
-    
-    .dummyhead {
-    padding-left:10%;
-        color: black;
+
+    .dummy {
+        margin-left: 20%;
     }
 
-    
+
+    .dummyhead {
+        padding-left: 10%;
+        color: black;
+    }
 }

@@ -1,4 +1,7 @@
 ﻿body {
+    background-image: url('../Images/maldives-666122.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .photo {
@@ -8,7 +11,7 @@
 
 .shortcut {
     border: 2px solid gray;
-    height: 100px;
+    height: 80px;
     font-size: 350%;
     background-color: aqua;
     text-align: center;
@@ -21,6 +24,7 @@
 }
 
 .totop {
+    border:solid black 2px;
     font-size: 150%;
     height: 10%;
     width: 10%;
@@ -29,6 +33,7 @@
 }
 
 .figimg {
+   
     transition: all 2s;
      width:100%;
 }
