@@ -1,7 +1,9 @@
 ﻿body {
     background-color: gold;
 }
-
+  #ima:before{
+        content:'Im a Computer';
+    }
 #frame {
     height: 700px;
     width: 1500px;
@@ -327,7 +329,9 @@ li {
     body {
         background-color: blue;
     }
-
+    #ima:before{
+        content:'Im a ipad';
+    }
     #frame {
         height: 700px;
         width: 600px;
@@ -433,7 +437,9 @@ li {
     body {
         background-color: red;
     }
-
+      #ima:before{
+        content:'Im a iphone!';
+    }
     #frame {
         height: 700px;
         width: 350px;

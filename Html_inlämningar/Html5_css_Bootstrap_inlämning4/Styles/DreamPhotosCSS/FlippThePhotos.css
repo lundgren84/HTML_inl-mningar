@@ -22,7 +22,7 @@
     height: 100%;
     position: absolute;
     margin: 0;
-    transition: 1s all;
+    transition: 1.5s all;
     transform-style:preserve-3d;
 }
 
