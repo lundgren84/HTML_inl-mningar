@@ -69,27 +69,24 @@ li {
     width: 92%;
     opacity: .8;*/
     width: 100%;
-   background-color:gray;
+    background-color: gray;
 }
 
 .lank {
-   
     transition: all .5s ease-in-out;
-   
     font-size: 50px;
     list-style: none;
     text-align: center;
     height: 100%;
     width: 100%;
     opacity: .8;
-    text-decoration:none;
+    text-decoration: none;
 }
 
     .lank:hover {
         background-color: gray;
         border-radius: 10px;
-           animation: olle 1s infinite;
-        
+        animation: olle 1s infinite;
         text-shadow: 20px 20px 20px gold, -20px -20px 20px gold, 20px -20px 20px gold, -20px 20px 20px gold;
     }
 
@@ -98,15 +95,10 @@ li {
     color: gold;
 }
 
-a {
-    width: 30%;
-    height: 10%;
-    color: black;
-    transition: all 1s;
-    
+width: 30%; height: 10%; color: black; transition: all 1s;
 }
 
-    
+
 
 @keyframes olle {
     50% {
@@ -171,29 +163,33 @@ a {
     }
 }
 
-@media only screen and (min-device-width : 1070px) {
+@media only screen and (min-device-width : 1024px) {
     header {
         margin-bottom: 15%;
     }
 }
 
 
-@media only screen and (min-width : 1024px) {
+@media only screen and (min-width : 1025px) {
     body {
         background-image: url('../Images/veligandu-island-1044366.jpg');
         background-repeat: round;
     }
+
     .lank {
-   
-    transition: all .5s ease-in-out;
-    margin:0;
-    font-size: 50px;
-    list-style: none;
-    text-align: center;
-    height: 100%;
-    width: 100%;
-    opacity: .8;
-}
+        transition: all .5s ease-in-out;
+        margin: 0;
+        font-size: 50px;
+        list-style: none;
+        text-align: center;
+        height: 100%;
+        width: 100%;
+        border-radius: 0;
+        background-color: gray;
+        color: black;   
+        opacity: .8;
+    }
+
     header {
         margin-bottom: 7%;
     }
@@ -207,21 +203,19 @@ a {
     }
 
     li {
-        margin-top:2%;
+        margin-top: 2%;
         transition: all .5s ease-in-out;
     }
 
         li:hover {
-          
-            background-color: darkgray;
-        }
-          li:hover .lank{
-             
             background-color: darkgray;
         }
 
+            li:hover .lank {
+                background-color: darkgray;
+            }
+
     a {
-        
         font-size: 60%;
     }
 
@@ -233,23 +227,18 @@ a {
         background: none;
     }
 
-    .lank {
+
+    .lank:hover {
         border-radius: 0px;
-        background-color: gray;
         height: 70px;
+        background-color: darkgray;
     }
 
-        .lank:hover {
-            border-radius: 0px;
-            height: 70px;
-            background-color: darkgray;
+        .lank:hover a {
+            animation: olle 1s infinite;
+            text-decoration: none;
+            text-shadow: 20px 20px 20px gold, -20px -20px 20px gold, 20px -20px 20px gold, -20px 20px 20px gold;
         }
-
-            .lank:hover a {
-                animation: olle 1s infinite;
-                text-decoration: none;
-                text-shadow: 20px 20px 20px gold, -20px -20px 20px gold, 20px -20px 20px gold, -20px 20px 20px gold;
-            }
 
     .dummy {
         margin-left: 20%;
