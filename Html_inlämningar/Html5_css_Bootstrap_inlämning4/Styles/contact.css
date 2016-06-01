@@ -4,6 +4,10 @@
     background-repeat: no-repeat;
 }
 
+.contactimg img {
+    margin: 0 auto;
+}
+
 #msg {
     overflow: no-content;
 }
@@ -48,9 +52,11 @@ h2 {
     font-size: 150%;
     text-decoration: underline;
 }
-#Mailbutton,input,textarea{
-    box-shadow:3px 3px 2px black;
+
+#Mailbutton, input, textarea {
+    box-shadow: 3px 3px 2px black;
 }
+
 
 @media only screen and (min-width : 1224px) {
     body {
@@ -58,14 +64,12 @@ h2 {
         background-size: cover;
         background-repeat: round;
     }
-    .contactimg{
-        margin-left:20%;
+
+    label, input, textarea, button {
+        font-size: 200%;
     }
-    label, input, textarea,button{
-        font-size:200%;
-    }
+
     input, textarea {
-    margin-bottom: 0;
-  
-}
+        margin-bottom: 0;
+    }
 }
