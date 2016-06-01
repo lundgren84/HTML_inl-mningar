@@ -229,7 +229,7 @@ h1 {
         .lank {
             transition: all .5s ease-in-out;
             margin: 0;
-            font-size: 50px;
+            font-size: 27px;
             list-style: none;
             text-align: center;
             height: 100px;
@@ -299,5 +299,20 @@ h1 {
         .dummyhead {
             padding-left: 10%;
             color: black;
+        }
+        @media only screen and (min-width : 1333px){
+            .lank {
+            transition: all .5s ease-in-out;
+            margin: 0;
+            font-size: 40px;
+            list-style: none;
+            text-align: center;
+            height: 100px;
+            width: 100%;
+            border-radius: 0;
+            background-color: gray;
+            color: black;
+            opacity: .8;
+        }
         }
     }

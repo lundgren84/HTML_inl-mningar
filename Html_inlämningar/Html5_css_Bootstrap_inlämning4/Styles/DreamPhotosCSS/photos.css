@@ -23,7 +23,7 @@
     text-align: left;
     font-size: 300%;
     width:100%; 
-    border-bottom: solid gray 2px;
+    border-bottom: solid darkgray 5px;
 }
 
 .totop {
@@ -31,7 +31,7 @@
    
     font-size: 150%;
     text-align:center;
-    background-color: goldenrod;
+    background-color: beige;
     border-radius: 50%;
 }
 
