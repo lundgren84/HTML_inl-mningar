@@ -136,6 +136,7 @@
     <Content Include="Styles\MaldiveGame.css" />
     <Content Include="Styles\DreamPhotosCSS\photos.css" />
     <Content Include="Styles\StyleSheet1.css" />
+    <Content Include="TextFile1.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

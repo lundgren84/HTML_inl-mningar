@@ -1,8 +1,56 @@
 ﻿body {
-    background-image: url('../Images/veligandu-island-1044366.jpg');
+    background: url('../Images/veligandu-island-1044366.jpg') fixed;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+ul {
+    list-style: none;
+    background-color: gray;
+    height: auto;
+    width: auto;
+    padding: 0;
+}
+
+li {
+    border-top: 2px gray solid;
+    transition: all .5s ease-in-out;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: darkgray;
+}
+
+    li:hover .lank {
+        background-color: darkgray;
+    }
+
+.menuhead {
+    font-size: 90px;
+    color: gold;
+}
+
+.lank {
+    color: black;
+    transition: all .5s ease-in-out;
+    font-size: 80px;
+    list-style: none;
+    text-align: center;
+    opacity: .8;
+    text-decoration: none;
+}
+
+
+    .lank:hover {
+        background-color: gray;
+        border-radius: 10px;
+        animation: olle 1s infinite;
+        text-shadow: 20px 20px 20px gold, -20px -20px 20px gold, 20px -20px 20px gold, -20px 20px 20px gold;
+    }
 
 h2, .dummy {
     text-align: center;
@@ -59,47 +107,6 @@ h1 {
     z-index: 3;
 }
 
-
-li {
-    /*margin: 30px 50px 50px 0px;
-    font-size: 50px;
-    list-style: none;
-    text-align: center;
-    height: 40px;
-    width: 92%;
-    opacity: .8;*/
-    width: 100%;
-    background-color: gray;
-}
-
-.lank {
-    transition: all .5s ease-in-out;
-    font-size: 50px;
-    list-style: none;
-    text-align: center;
-    height: 100%;
-    width: 100%;
-    opacity: .8;
-    text-decoration: none;
-}
-
-    .lank:hover {
-        background-color: gray;
-        border-radius: 10px;
-        animation: olle 1s infinite;
-        text-shadow: 20px 20px 20px gold, -20px -20px 20px gold, 20px -20px 20px gold, -20px 20px 20px gold;
-    }
-
-.menuhead {
-    font-size: 60px;
-    color: gold;
-}
-
-width: 30%; height: 10%; color: black; transition: all 1s;
-}
-
-
-
 @keyframes olle {
     50% {
         color: red;
@@ -107,19 +114,26 @@ width: 30%; height: 10%; color: black; transition: all 1s;
 }
 
 .grid-button {
-    z-index: 5;
+    z-index: 255;
     position: fixed;
     top: 160px;
     left: 40px;
     padding: 20px;
 }
 
-.grid.grid:hover {
-    color: gold;
+.grid.grid {
+    color: white;
+    opacity: .7;
 }
 
+    .grid.grid :hover {
+        color: gray;
+        opacity: .9;
+    }
+
 .grid {
-    z-index: 5;
+    margin: 20px;
+    z-index: 155;
     background-color: white;
     color: #FFF;
     display: inline-block;
@@ -134,7 +148,7 @@ width: 30%; height: 10%; color: black; transition: all 1s;
 
     .grid.close {
         box-shadow: -24px 0px, -48px 0px, 0px -24px, 0px 48px, 0px -48px, 0px 24px, 48px 0px, 24px 0px;
-        transform: rotate(45deg) scale(0.75);
+        transform: rotate(45deg);
     }
 
 .menu {
@@ -152,101 +166,138 @@ width: 30%; height: 10%; color: black; transition: all 1s;
     .menu.open {
     }
 
+
     .menu.close {
+        margin-left: 9%;
+        margin-top: 10%;
         left: 50px;
         opacity: 1;
     }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    header {
-        margin-bottom: 15%;
-    }
-}
-
-@media only screen and (min-device-width : 1024px) {
-    header {
-        margin-bottom: 15%;
-    }
-}
-
-
-@media only screen and (min-width : 1025px) {
-    body {
-        background-image: url('../Images/veligandu-island-1044366.jpg');
-        background-repeat: round;
-    }
-
-    .lank {
-        transition: all .5s ease-in-out;
-        margin: 0;
-        font-size: 50px;
-        list-style: none;
-        text-align: center;
-        height: 100%;
-        width: 100%;
-        border-radius: 0;
-        background-color: gray;
-        color: black;   
-        opacity: .8;
-    }
-
-    header {
-        margin-bottom: 7%;
-    }
-
+        .menu.close li {
+            height: 100px;
+            margin-bottom: 0;
+        }
+/*.......................................................*/
+@media only screen and (min-device-width: 600px) {
     .menuhead {
         display: none;
     }
-
-    .grid, .grid-button {
-        display: none;
-    }
-
-    li {
-        margin-top: 2%;
+    .grid-button {
+    z-index: 255;
+    position: absolute;
+    top: 160px;
+    left: 20px;
+    padding: 20px;
+}
+    .menu {
+        background-color: rgba(255, 255, 255, 0.5);
+        width: 70%;
+        border-radius: 30px 30px 30px 30px;
+        font-size: 50%;
+        left: -500%;
+        top: 10%;
         transition: all .5s ease-in-out;
+        z-index: 4;
     }
 
-        li:hover {
-            background-color: darkgray;
+        .menu.close {
+            position: absolute;
+           top:10%;
+            left:40px;
+            left: 0;
+            opacity: 1;
+        }
+    /*.......................................................*/
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+        header {
+            margin-bottom: 15%;
+        }
+    }
+    /*.......................................................*/
+    @media only screen and (min-device-width : 1024px) {
+        header {
+            margin-bottom: 15%;
+        }
+    }
+
+    /*.......................................................*/
+    @media only screen and (min-width : 1025px) {
+
+
+
+        .lank {
+            transition: all .5s ease-in-out;
+            margin: 0;
+            font-size: 50px;
+            list-style: none;
+            text-align: center;
+            height: 100px;
+            width: 100%;
+            border-radius: 0;
+            background-color: gray;
+            color: black;
+            opacity: .8;
         }
 
-            li:hover .lank {
+        header {
+            margin-bottom: 7%;
+        }
+
+        .menuhead {
+            display: none;
+        }
+
+        .grid, .grid-button {
+            display: none;
+        }
+
+        li {
+            background-color: gray;
+            margin-top: 2%;
+            transition: all .5s ease-in-out;
+        }
+
+            li:hover {
                 background-color: darkgray;
             }
 
-    a {
-        font-size: 60%;
-    }
+                li:hover .lank {
+                    background-color: darkgray;
+                }
 
-    .toprow {
-        position: absolute;
-        left: 0;
-        width: 100%;
-        padding: 0;
-        background: none;
-    }
-
-
-    .lank:hover {
-        border-radius: 0px;
-        height: 70px;
-        background-color: darkgray;
-    }
-
-        .lank:hover a {
-            animation: olle 1s infinite;
-            text-decoration: none;
-            text-shadow: 20px 20px 20px gold, -20px -20px 20px gold, 20px -20px 20px gold, -20px 20px 20px gold;
+        a {
+            font-size: 60%;
         }
 
-    .dummy {
-        margin-left: 20%;
-    }
+        .toprow {
+            position: absolute;
+            left: 0;
+            width: 100%;
+            padding: 0;
+            background: none;
+        }
 
 
-    .dummyhead {
-        padding-left: 10%;
-        color: black;
+        .lank:hover {
+            border-radius: 0px;
+            height: 70px;
+            background-color: darkgray;
+        }
+
+            .lank:hover a {
+                animation: olle 1s infinite;
+                text-decoration: none;
+                text-shadow: 20px 20px 20px gold, -20px -20px 20px gold, 20px -20px 20px gold, -20px 20px 20px gold;
+            }
+
+        .dummy {
+            margin-left: 20%;
+        }
+
+
+        .dummyhead {
+            padding-left: 10%;
+            color: black;
+        }
     }
-}

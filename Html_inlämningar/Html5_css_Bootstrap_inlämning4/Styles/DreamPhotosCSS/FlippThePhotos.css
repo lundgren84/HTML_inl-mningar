@@ -1,8 +1,4 @@
-﻿body {
-    background-image: url('../../Images/DreamPhotos/maldives-1268660_640.jpg');
-    background-size:cover;
-    background-repeat:round;
-}
+﻿
 .container{
      background-color:coral;
 }
@@ -48,7 +44,10 @@
 .picture:hover{
     
       transform: rotateY(180deg)  rotateX(360deg);
-        box-shadow: 50px 50px 200px gold, -50px -50px 200px gold, 50px -50px 200px gold, -50px 50px 200px gold;
+        box-shadow: 50px 50px 200px gold,
+                   -50px -50px 200px gold, 
+                    50px -50px 200px gold,
+                   -50px 50px 200px gold;
 
 }
 
