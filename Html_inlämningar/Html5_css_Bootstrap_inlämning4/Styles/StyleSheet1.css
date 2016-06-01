@@ -180,19 +180,20 @@ h1 {
         }
 /*.......................................................*/
 @media only screen and (min-device-width: 550px) and (max-device-height: 450px) {
-       .grid-button {
-    z-index: 255;
-    position: absolute;
-    top: 160px;
-    left: 20px;
-    padding: 20px;
+    .grid-button {
+        z-index: 255;
+        position: absolute;
+        top: 160px;
+        left: 20px;
+        padding: 20px;
+    }
 }
-}
+
 @media only screen and (min-device-width: 600px) {
     .menuhead {
         display: none;
     }
- 
+
     .menu {
         background-color: rgba(255, 255, 255, 0.5);
         width: 70%;
@@ -206,8 +207,8 @@ h1 {
 
         .menu.close {
             position: absolute;
-           top:10%;
-            left:40px;
+            top: 10%;
+            left: 40px;
             left: 0;
             opacity: 1;
         }
@@ -303,11 +304,30 @@ h1 {
             padding-left: 10%;
             color: black;
         }
-        @media only screen and (min-width : 1333px){
+
+        @media only screen and (min-width : 1333px) {
             .lank {
+                transition: all .5s ease-in-out;
+                margin: 0;
+                font-size: 40px;
+                list-style: none;
+                text-align: center;
+                height: 100px;
+                width: 100%;
+                border-radius: 0;
+                background-color: gray;
+                color: black;
+                opacity: .8;
+            }
+        }
+    }
+     @media only screen and (min-device-width : 900px) and (max-device-height : 800px) {
+/*........................................*/
+  .lank {
             transition: all .5s ease-in-out;
             margin: 0;
-            font-size: 40px;
+           
+            font-size: 27px;
             list-style: none;
             text-align: center;
             height: 100px;
@@ -317,5 +337,70 @@ h1 {
             color: black;
             opacity: .8;
         }
+
+        header {
+            margin-bottom: 7%;
         }
+
+        .menuhead {
+            display: none;
+        }
+
+        .grid, .grid-button {
+            display: none;
+        }
+
+        li {
+            width:200px;
+            background-color: gray;
+            margin-top: 2%;
+            transition: all .5s ease-in-out;
+        }
+
+            li:hover {
+                background-color: darkgray;
+            }
+
+                li:hover .lank {
+                    background-color: darkgray;
+                }
+ul{
+    margin-top:30px;
+}
+        a {
+            font-size: 60%;
+        }
+
+        .toprow {
+            position: absolute;
+            left: 0;
+            width: 100%;
+            padding: 0;
+            background: none;
+        }
+
+
+        .lank:hover {
+            border-radius: 0px;
+            height: 70px;
+            background-color: darkgray;
+        }
+
+            .lank:hover a {
+                animation: olle 1s infinite;
+                text-decoration: none;
+                text-shadow: 20px 20px 20px gold, -20px -20px 20px gold, 20px -20px 20px gold, -20px 20px 20px gold;
+            }
+
+        .dummy {
+            margin-left: 20%;
+        }
+
+
+        .dummyhead {
+            padding-left: 10%;
+            color: black;
+        }
+       
     }
+}
