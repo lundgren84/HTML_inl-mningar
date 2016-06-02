@@ -9,13 +9,10 @@
     <script src="/Scripts/jquery-1.9.1.min.js"></script>
     <script src="/Scripts/bootstrap.min.js"></script>
     <link href="/Content/bootstrap.css" rel="stylesheet" />
-    
-
     <link href="/Styles/StyleSheet1.css" rel="stylesheet" />
     <link href="/Styles/MaldiveGame.css" rel="stylesheet" />
     <script src="/MoreScript/JavaScript.js"></script>
-   
-
+    <script src="../MoreScript/MaldiveGames.js"></script>
 </head>
 <body>
     <header class="container-fluid">
@@ -44,16 +41,27 @@
 
     </header>
 
-    <div class="container game">
-        <div class="row">
-  <div class="col-xs-12 tank">
-      <img class="shark" src="../Images/Maldivegame/Animated-moving-dolphin-swimming.gif" alt="shark"/>
-      <img class="sunfish" src="../Images/Maldivegame/sunfish.gif" alt="sunfish"/>
-      <img class="jelly" src="../Images/Maldivegame/jellyfish-293969.png" alt="jellyfish"/>
-  </div>
+    <img class="img-responsive" id="tankback" src="../Images/Maldivegame/IMG_2177.JPG" />
+    <div class="container" id="tank">
+        <div class="row ">
+            <canvas id="backcontainer" class="col-xs-12">
+             <!-- Fish tank background! WIth canvas Repainted tankback with JS -->
+            </canvas>
 
+            <div id="fishcontainer">
+                <!--<img class="shark fish" src="../Images/Maldivegame/Animated-moving-dolphin-swimming.gif" alt="shark" />-->
+
+                <img class="img-responsive sunfish fish" src="../Images/Maldivegame/sunfish.gif" alt="sunfish" />
+
+             
+
+                <img   class="img-responsive fish diver" src="../Images/Maldivegame/diver-small.png" />
+
+                <img  class="img-responsive fish shark" src="../Images/Maldivegame/SharkShark.png" />
+            </div>
         </div>
     </div>
+
 
     <footer class="container-fluid">
         <div class="log">Roc</div>

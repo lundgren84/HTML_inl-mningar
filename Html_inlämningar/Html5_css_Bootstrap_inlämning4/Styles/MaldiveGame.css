@@ -1,46 +1,90 @@
 ﻿body {
 }
 
-.gametext {
-    width: 100%;
-    height: 100px;
-}
-
-.game {
-    border: 20px solid lightblue;    
+#tank {
     height: 800px;
-    
-    background-image: url('../Images/Maldivegame/IMG_2179.JPG');
-    background-size: cover;
-    background-repeat: no-repeat;
+    position: relative;
 }
 
+
+#backcontainer, #fishcontainer {
+    position: absolute;
+    margin: 0;
+    border: 20px solid lightblue;
+    height: 800px;
+    width: 100%;
+    z-index: 3;
+}
+
+#fishcontainer {
+    z-index: 4;
+}
+
+#tankback {
+    display: none;
+}
+.fish{
+    position:absolute;
+}
+.diver{
+ width:15%;
+    top:10%;
+    left:80%;
+}
+
+.shark{
+    width:15%;
+    top:50%;
+    left:50%;
+    transform:rotateY(180deg);
+  
+}
+@keyframes sharkfish {
+    25% {
+        top: 60%;
+         transform: rotateY(0); 
+    }
+
+    45% {
+        transform: rotateY(180deg);
+    }
+
+    50% {
+        left: 30%;
+       
+    }
+
+    75% {
+        top:60%;
+        transform: rotateY(180deg);
+    }
+
+}
 .sunfish {
-    position: absolute;
-    top: 600%;
-    left: 1%;
-    animation: sunfishswim 7s infinite;
+    width: 10%;
+   
+    top: 50%;
+    left: 10%;
+    animation: sunfishswim 15s infinite;
 }
-
 @keyframes sunfishswim {
-    50% {
-        top: 500%;
-        left: 40%;
+    25% {
+        top: 20%;
+        transform: rotateY(0) rotate(-360deg);
+    }
+
+    45% {
         transform: rotateY(180deg);
     }
-}
 
-.shark {
-    position: absolute;
-    top: 400%;
-    left: 1%;
-    animation: sharkswim 5s infinite;
-}
-
-@keyframes sharkswim {
     50% {
-        top: 300%;
         left: 80%;
+       
+    }
+
+    75% {
+        top: 70%;
         transform: rotateY(180deg);
     }
+
 }

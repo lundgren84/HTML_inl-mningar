@@ -89,9 +89,12 @@
     <Content Include="Images\imgIndex\maldives-666122.jpg" />
     <Content Include="Images\imgIndex\veligandu-island-1044366.jpg" />
     <Content Include="Images\Maldivegame\Animated-moving-dolphin-swimming.gif" />
+    <Content Include="Images\Maldivegame\diver-small.png" />
     <Content Include="Images\Maldivegame\IMG_2177.JPG" />
     <Content Include="Images\Maldivegame\IMG_2179.JPG" />
     <Content Include="Images\Maldivegame\jellyfish-293969.png" />
+    <Content Include="Images\Maldivegame\muray.png" />
+    <Content Include="Images\Maldivegame\SharkShark.png" />
     <Content Include="Images\Maldivegame\sunfish.gif" />
     <Content Include="Images\Malediven.jpg" />
     <Content Include="Images\retrotv.png" />
@@ -101,6 +104,7 @@
     <Content Include="Images\Video\Scuba Diving .mp4" />
     <Content Include="Images\Video\video1.mp4" />
     <Content Include="MoreScript\JavaScript.js" />
+    <Content Include="MoreScript\MaldiveGames.js" />
     <Content Include="MoreScript\SnappShoot.js" />
     <Content Include="packages.config" />
     <Content Include="Pages\afterContact.html" />
