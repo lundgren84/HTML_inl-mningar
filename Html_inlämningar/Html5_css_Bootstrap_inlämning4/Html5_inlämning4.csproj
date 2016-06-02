@@ -96,7 +96,12 @@
     <Content Include="Images\Malediven.jpg" />
     <Content Include="Images\retrotv.png" />
     <Content Include="Images\veligandu-island-1044366.jpg" />
+    <Content Include="Images\Video\BigFish.mp4" />
+    <Content Include="Images\Video\ljud1.mp4" />
+    <Content Include="Images\Video\Scuba Diving .mp4" />
+    <Content Include="Images\Video\video1.mp4" />
     <Content Include="MoreScript\JavaScript.js" />
+    <Content Include="MoreScript\SnappShoot.js" />
     <Content Include="packages.config" />
     <Content Include="Pages\afterContact.html" />
     <Content Include="Pages\Contactus.html" />
