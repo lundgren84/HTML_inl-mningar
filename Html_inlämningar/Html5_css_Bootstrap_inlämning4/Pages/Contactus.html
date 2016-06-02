@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>RocResort</title>
     <meta charset="utf-8" />
     <meta name="author" content="Hampus Lundgren" />
     <meta name="description" content="The best resort on Maldives!" />
@@ -54,11 +54,13 @@
                     <fieldset>
                         <legend>Send a Mail</legend>
                     </fieldset>
+
                     <table>
                         <tr>
                             <td>
+
                                 <label for="fname">First name</label><br />
-                                <input type="text"  name="fname" id="fname" required autofocus placeholder="First name" /><br />
+                                <input type="text" name="fname" id="fname" required autofocus placeholder="First name" /><br />
                                 <label for="lname">Last name</label><br />
                                 <input type="text" name="lname" id="lname" required placeholder="Last name" /><br />
                                 <label for="email">e-mail</label><br />
@@ -68,10 +70,40 @@
 
                                 <label for="msg">Message</label><br />
                                 <textarea type="text" required size="25" name="msg" id="msg" placeholder="Write mail here. . ." rows="3" cols="30"></textarea><br />
+
+
+                                <fieldset>
+                                    <legend>Wath do you think about this page!?</legend>
+                                    <label class="lbsmily" id="lbhappy" for="happy">
+                                    </label>
+                                    <input type="radio" typeof="smily" required name="smily" value="smily" id="happy" />
+
+
+                                    <label class="lbsmily" id="lbnormal" for="normal">
+
+                                    </label>
+
+
+                                    <input type="radio" typeof="smily" required name="smily" value="smily" id="normal" />
+
+
+                                    <label class="lbsmily" id="lbsad" for="sad">
+
+                                    </label>
+
+                                    <input type="radio" typeof="smily" required name="smily" value="smily" id="sad" />
+                                </fieldset>
+
+
+                                <div class="smily">
+
+                                </div>
                                 <button id="Mailbutton" type="submit">Send</button>
+
                             </td>
                         </tr>
                     </table>
+
                 </form>
 
             </div>

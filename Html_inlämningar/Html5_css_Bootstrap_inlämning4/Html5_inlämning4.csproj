@@ -99,6 +99,9 @@
     <Content Include="Images\Maldivegame\sunfish.gif" />
     <Content Include="Images\Malediven.jpg" />
     <Content Include="Images\retrotv.png" />
+    <Content Include="Images\smilys\happy.jpg" />
+    <Content Include="Images\smilys\ok.jpg" />
+    <Content Include="Images\smilys\sad.jpg" />
     <Content Include="Images\veligandu-island-1044366.jpg" />
     <Content Include="Images\Video\BigFish.mp4" />
     <Content Include="Images\Video\ljud1.mp4" />

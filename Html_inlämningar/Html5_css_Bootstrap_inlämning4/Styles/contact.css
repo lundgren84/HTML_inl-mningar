@@ -56,8 +56,32 @@ h2 {
 #Mailbutton, input, textarea {
     box-shadow: 3px 3px 2px black;
 }
+.lbsmily{
+    width:20px;
+    height:20px;
+}
+#lbhappy {
+    width:100px;
+    height:100px;
+    background: url('../Images/smilys/happy.jpg' );
+    background-size:cover;
+}
+#lbsad {
+    width: 100px;
+    height: 100px;
+    background: url('../Images/smilys/sad.jpg');
+    background-size: cover;
+}
+#lbnormal {
+    width: 100px;
+    height: 100px;
+    background: url('../Images/smilys/ok.jpg');
+    background-size: cover;
+}
+.smily{
+    width:100px;
 
-
+}
 @media only screen and (min-width : 1224px) {
     body {
         background-image: url('../Images/maldives-666122.jpg');
