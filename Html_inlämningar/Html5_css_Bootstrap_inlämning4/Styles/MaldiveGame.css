@@ -28,20 +28,67 @@
 }
 .diver{
  width:15%;
-    top:10%;
+    top:5%;
     left:80%;
+   animation:13s diverswims infinite;
+}
+.corral{
+    top:70%;
+    left:55%;
+    z-index:4;
 }
 
+.muray{
+width:15%;
+    top:80%;
+    left:50%;
+    z-index:10;
+    
+    animation:murayswim 2s infinite;
+}
 .shark{
     width:15%;
-    top:50%;
+    top:80%;
     left:50%;
     transform:rotateY(180deg);
-  
+  animation:sharkfish 5s infinite;
+}
+.sunfish {
+    width: 10%;
+   
+    top: 50%;
+    left: 10%;
+    animation: sunfishswim 15s infinite;
+}
+#diverCheck:checked ~ #iddiver{
+     animation:13s diverswim infinite;
+}
+@keyframes murayswim{
+    25%{
+             transform:rotateY(0);
+             left:20%;
+    }
+    45%{
+        transform:rotateY(180deg);
+    }
+    50%{
+        top:20%;
+    }
+    65%{
+        transform:rotateY(180deg);
+    }
+    75%{
+        left:80%;
+         
+    }
+    80%{
+         
+    }
+
 }
 @keyframes sharkfish {
     25% {
-        top: 60%;
+        top: 50%;
          transform: rotateY(0); 
     }
 
@@ -50,22 +97,15 @@
     }
 
     50% {
-        left: 30%;
+        left: 20%;
        
     }
 
     75% {
-        top:60%;
+        
         transform: rotateY(180deg);
     }
 
-}
-.sunfish {
-    width: 10%;
-   
-    top: 50%;
-    left: 10%;
-    animation: sunfishswim 15s infinite;
 }
 @keyframes sunfishswim {
     25% {
@@ -87,4 +127,19 @@
         transform: rotateY(180deg);
     }
 
+}
+@keyframes diverswim{
+    25%{
+         transform:rotateY(0);
+    }
+    48%{
+        transform:rotateY(180deg);
+    }
+    50%{
+        left:10%;
+     
+    }
+    75%{
+         transform:rotateY(180deg);
+    }
 }
