@@ -1,0 +1,12 @@
+﻿HTML
+img murray id=murray
+input checkbox id murray_notclockwise
+
+CSS
+#murray_notclockwise:checked -><- #murray{
+animation
+}
+
+keyframe murray_notclockwise{
+....
+}
