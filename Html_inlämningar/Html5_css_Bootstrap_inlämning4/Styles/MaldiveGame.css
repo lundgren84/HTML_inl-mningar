@@ -1,6 +1,20 @@
 ﻿body {
 }
-
+#lbdiver{
+    margin-left:4%;
+}
+label{
+   
+    text-align:center;
+    border-radius:20px;
+   font-size:100%;
+    width:20%;
+    background-color:gray;
+    box-shadow:10px 10px 5px black;
+}
+input{
+     
+}
 #tank {
     height: 800px;
     position: relative;
@@ -13,7 +27,7 @@
     border: 20px solid lightblue;
     height: 800px;
     width: 100%;
-    z-index: 3;
+    z-index: 2;
 }
 
 #fishcontainer {
@@ -32,6 +46,10 @@
     left:80%;
    animation:13s diverswims infinite;
 }
+#diverCheck:checked ~ #iddiver{
+     animation:13s diverswim infinite;
+}
+
 .corral{
     top:70%;
     left:55%;
@@ -43,25 +61,35 @@ width:15%;
     top:80%;
     left:50%;
     z-index:10;  
-    animation:murayswim 2s infinite;
+    animation:murayswim 13s infinite;
 }
 .shark{
     width:15%;
     top:80%;
     left:50%;
     transform:rotateY(180deg);
-  animation:sharkfish 5s infinite;
+  animation: 5s infinite;
 }
 .sunfish {
     width: 10%;
    
     top: 50%;
     left: 10%;
-    animation: sunfishswim 15s infinite;
+    animation:  15s infinite;
 }
-#diverCheck:checked ~ #iddiver{
-     animation:13s diverswim infinite;
+
+
+#SharkCheck:checked ~ #idshark{
+     animation:5s sharkfish infinite;
 }
+#SunCheck:checked ~ #idsunfish{
+     animation:5s sunfishswim infinite;
+}
+#MurayCheck:checked ~ #idmuray{
+     animation:13s murayswims infinite;
+}
+
+
 @keyframes murayswim{
     25%{
              transform:rotateY(0);
@@ -82,6 +110,33 @@ width:15%;
     }
     80%{
          
+    }
+
+}
+@keyframes murayswims{
+    5%{
+        transform:rotateY(180deg);
+    }
+
+    25%{
+             transform:rotateY(0);
+             left:80%;
+    }
+    45%{
+      
+    }
+    50%{
+        top:20%;
+    }
+    65%{
+       
+    }
+    75%{
+        left:20%;
+         
+    }
+    80%{
+          transform:rotateY(180deg);
     }
 
 }
@@ -127,6 +182,7 @@ width:15%;
     }
 
 }
+
 @keyframes diverswim{
     25%{
          transform:rotateY(0);
